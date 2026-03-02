@@ -4,14 +4,19 @@ import Footer from "./Footer";
 import { AnimatePresence } from "framer-motion";
 import Nav from "./Nav";
 
+import GetStarted from "../components/GetStarted";
+import { useState } from "react";
+
 function MainContainer() {
   const path = useLocation();
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
   return (
     <>
       <AnimatePresence mode="wait">
         {(path.pathname !== "/" &&
           path.pathname !== "/search" &&
-          path.pathname !== "/menu") && <Nav />}
+          path.pathname !== "/menu") && <Nav onOpenDrawer={() => setIsDrawerOpen(true)} />}
         <Routes location={path} key={path.pathname}>
           {appRoutes.map((route, index) => (
             <Route key={index} path={route.path} element={route.element} />
@@ -19,6 +24,9 @@ function MainContainer() {
         </Routes>
       </AnimatePresence>
       {path.pathname === "/" && <Footer />}
+      {isDrawerOpen && (
+        <GetStarted onClose={() => setIsDrawerOpen(false)} />
+      )}
     </>
   );
 }
