@@ -25,7 +25,7 @@ export default function ActivateAIEnterprise() {
         </div>
 
         {/* RIGHT FORM */}
-        <form className="space-y-4  bg-white p-10 border rounded-2xl shadow-sm">
+        <form className="space-y-4 p-10 border rounded-2xl shadow-sm">
           {formData.fields.map((field, index) => (
             <FormFields
               key={index}

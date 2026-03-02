@@ -11,7 +11,7 @@ function Menu() {
   const { goTo } = useCustomNavigate();
 
   return (
-    <div className="bg-[#1E2124] text-white h-screen p-3 overflow-y-auto">
+    <div className="bg-structure h-screen p-3 overflow-y-auto">
       {/* Top Header */}
       <FadeUp delay={0.1}>
         <div className="w-[95%] fixed left-1/2 -translate-x-1/2 flex justify-between items-center">
@@ -38,7 +38,7 @@ function Menu() {
             <div className="flex border">
               <Button
                 size="icon"
-                className="border-none border-white text-white bg-transparent transition-all duration-500 hover:bg-white hover:text-black"
+                className="border-none border-white text-white bg-transparent transition-all duration-500 hover: hover:text-black"
                 onClick={() => goTo("/search")}
               >
                 <Search strokeWidth={0.9} className="rotate-y-180" />
@@ -46,7 +46,7 @@ function Menu() {
 
               <Button
                 size="icon"
-                className=" text-black hover:text-white bg-white border-none"
+                className=" text-black hover:text-white border-none"
                 onClick={() => goTo("/")}
               >
                 <X strokeWidth={0.9} />

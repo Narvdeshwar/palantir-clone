@@ -5,7 +5,7 @@ function HeroSection() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="w-full bg-white">
+    <section className="w-full ">
       {/* Top Nav */}
       <nav className="flex items-center justify-between px-6 lg:px-10 py-6 mt-20 relative">
         <div className="text-xl font-medium">OpsMind</div>
@@ -30,7 +30,7 @@ function HeroSection() {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="absolute top-full left-0 w-full bg-white border-t shadow-md md:hidden">
+          <div className="absolute top-full left-0 w-full border-t shadow-md md:hidden">
             <div className="flex flex-col px-6 py-6 gap-4 text-sm text-gray-700">
               <a href="#" className="hover:text-black">Product</a>
               <a href="#" className="hover:text-black">Pricing</a>

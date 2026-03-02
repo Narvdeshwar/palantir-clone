@@ -24,7 +24,7 @@ function PlatformInfo() {
   return (
     <section
       ref={ref}
-      className="h-screen flex items-center justify-center bg-white overflow-hidden"
+      className="h-screen flex items-center justify-center overflow-hidden"
     >
       <motion.p
         style={{

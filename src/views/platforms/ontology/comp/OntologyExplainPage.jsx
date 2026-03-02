@@ -109,10 +109,10 @@ export default function OntologyExplainPage() {
 
           {/* RIGHT SIDE – BIG CARD */}
           <div>
-            <div className="p-10 rounded-3xl border shadow-md bg-white space-y-12">
+            <div className="bg-card p-10 space-y-12">
 
               {/* SUBHEADER */}
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-body leading-relaxed">
                 {section.subheader}
               </p>
 
@@ -122,7 +122,7 @@ export default function OntologyExplainPage() {
               {section.content.map((item, idx) => (
                 <div key={item.id} className="space-y-4">
 
-                  <h3 className="text-2xl font-semibold">{item.title}</h3>
+                  <h3 className="text-card-title">{item.title}</h3>
 
                   <p className="text-gray-700 leading-relaxed">
                     {item.description}

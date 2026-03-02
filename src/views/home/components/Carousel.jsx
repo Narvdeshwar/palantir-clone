@@ -48,7 +48,7 @@ function Carousel() {
             <button
               key={item.id}
               onClick={() => handleButtonClick(index)}
-              className={`relative overflow-hidden bg-white px-4 py-2 rounded-sm shadow-md text-[18px] font-medium transition-all duration-300 cursor-pointer border border-gray-200 hover:border-gray-400 ${isActive ? "text-black" : "text-gray-500"
+              className={`relative overflow-hidden px-4 py-2 rounded-sm shadow-md text-[18px] font-medium transition-all duration-300 cursor-pointer border border-gray-200 hover:border-gray-400 ${isActive ? "text-black" : "text-gray-500"
                 }`}
             >
               {isActive && (

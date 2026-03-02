@@ -3,7 +3,7 @@ import { features } from "@/lib/data/realtime";
 const OntologySection = () => {
   return (
     <>
-      <section className="w-[90%] mx-auto px-6 py-16 bg-white text-slate-900 font-sans">
+      <section className="w-[90%] mx-auto px-6 py-16 text-slate-900 font-sans">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div>
             <h2 className="text-5xl leading-16">

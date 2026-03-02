@@ -4,7 +4,7 @@ import { builtAIP } from "../../../../lib/data/solution";
 
 function Solving() {
   return (
-    <div className="bg-[#1D1F2B] pb-20 space-y-14">
+    <div className="pb-20 space-y-14">
       {/* TOP SECTION */}
       <div
         className="

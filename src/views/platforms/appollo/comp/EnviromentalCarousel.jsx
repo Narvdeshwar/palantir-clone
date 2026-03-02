@@ -61,7 +61,7 @@ export default function ProductionEnvironments() {
 
   return (
     <>
-      <section className="w-full bg-white px-6 lg:px-20 py-32 overflow-hidden">
+      <section className="w-full px-6 lg:px-20 py-32 overflow-hidden">
         {/* Heading */}
         <h2 className="text-5xl lg:text-7xl font-light max-w-4xl mb-20">
           From one to many environments

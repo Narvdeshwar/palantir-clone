@@ -26,7 +26,7 @@ function FormFields({ labelName, type = "text", options = [], className, placeho
       {type === "select" && (
         <select
           id={labelName}
-          className="border-b border-gray-300 outline-none focus:border-gray-500 p-1 text-sm bg-white"
+          className="border-b border-gray-300 outline-none focus:border-gray-500 p-1 text-sm "
         >
           <option value="">Select {labelName}</option>
           {options.map((opt, i) => (

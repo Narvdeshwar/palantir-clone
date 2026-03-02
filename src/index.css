@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* ============================= */
+/*           FONTS               */
+/* ============================= */
 
 @font-face {
   font-family: "AllianceNo1";
@@ -17,59 +20,224 @@
   font-display: swap;
 }
 
+/* ============================= */
+/*           THEME TOKENS        */
+/* ============================= */
+
+@theme {
+  /* Brand */
+  --color-jspark-primary: #238c82;
+  --color-jspark-primary-hover: #1f7a72;
+  --color-jspark-primary-active: #17665f;
+
+  /* Structural (sidebar / shell only) */
+  --color-jspark-structure: #0b162a;
+
+  /* Surfaces */
+  --color-bg-app: #f7f9fc;
+  --color-bg-card: #ffffff;
+  --color-bg-hover: #f2f4f7;
+
+  /* Borders */
+  --color-border: #e4e7ec;
+
+  /* Text */
+  --color-text-primary: #101828;
+  --color-text-secondary: #475467;
+  --color-text-muted: #667085;
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* ============================= */
+/*           BASE                */
+/* ============================= */
+
 body {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-app);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-platform-info {
-  transition: all 1s cubic-bezier(0.16, 1, 0.3, 1);
+/* ============================= */
+/*        TYPOGRAPHY SYSTEM      */
+/* ============================= */
+
+@layer utilities {
+  .text-page-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+  }
+
+  .text-card-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+  }
+
+  .text-kpi-number {
+    font-size: clamp(24px, 2vw, 30px);
+    font-weight: 600;
+    color: var(--color-jspark-structure);
+  }
+
+  .text-body {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+  }
+
+  .text-table {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+  }
+
+  .text-small-label {
+    font-size: clamp(12px, 1vw, 14px);
+    font-weight: 400;
+    color: var(--color-text-muted);
+  }
 }
 
+/* ============================= */
+/*        STRUCTURE CLASSES      */
+/* ============================= */
 
+@layer utilities {
+
+  /* Sidebar / App shell */
+  .bg-structure {
+    background-color: var(--color-jspark-structure);
+    color: #d0d5dd;
+  }
+
+  /* Cards */
+  .bg-card {
+    background-color: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+  }
+
+  /* Hover Surface */
+  .bg-hover {
+    background-color: var(--color-bg-hover);
+  }
+}
+
+/* ============================= */
+/*        BRAND UTILITIES        */
+/* ============================= */
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-jspark-primary);
+    color: white;
+  }
+
+  .bg-primary-hover:hover {
+    background-color: var(--color-jspark-primary-hover);
+  }
+
+  .bg-primary-active:active {
+    background-color: var(--color-jspark-primary-active);
+  }
+
+  .text-primary {
+    color: var(--color-jspark-primary);
+  }
+
+  .border-default {
+    border-color: var(--color-border);
+  }
+
+  .ring-primary {
+    --tw-ring-color: var(--color-jspark-primary);
+  }
+
+  .hover-primary:hover {
+    background-color: rgba(35, 140, 130, 0.08);
+  }
+}
+
+/* ============================= */
+/*          TABLE STYLE          */
+/* ============================= */
+
+@layer utilities {
+  .table-header {
+    background-color: #f9fafb;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+  }
+
+  .table-row {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .table-row:hover {
+    background-color: var(--color-bg-hover);
+  }
+}
+
+/* ============================= */
+/*          BUTTON SYSTEM        */
+/* ============================= */
+
+@layer components {
+  .btn-primary {
+    background-color: var(--color-jspark-primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-jspark-primary-hover);
+  }
+
+  .btn-secondary {
+    background-color: white;
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+
+  .btn-secondary:hover {
+    background-color: var(--color-bg-hover);
+  }
+}
+
+/* ============================= */
+/*        SCROLL ANIMATIONS      */
+/* ============================= */
 
 @keyframes infinite-scroll {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
 }
 
 .scroll-container {
-  animation: infinite-scroll 20s linear infinite;
-}
-
-.scroll-container:hover {
-  animation-play-state: paused;
-}
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-33.333%);
-  }
-}
-
-.scroll-container {
-  animation: scroll 120s linear infinite;
+  animation: infinite-scroll 40s linear infinite;
   display: flex;
   width: max-content;
 }
 
 .scroll-container:hover {
   animation-play-state: paused;
-}
-
-.modern-gradient-text {
-  background-image: linear-gradient(
-    122deg,
-    rgb(30, 31, 43) -100%,
-    rgb(152, 129, 243) 20%,
-    rgb(19, 201, 186) 150%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
 }

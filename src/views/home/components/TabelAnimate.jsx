@@ -8,7 +8,7 @@ function TableAnimate() {
 
   return (
     <>
-      <div className="flex flex-col w-full divide-y bg-white divide-gray-300 overflow-hidden pb-24">
+      <div className="flex flex-col w-full divide-y divide-gray-300 overflow-hidden pb-24">
         {steps.map((step, index) => (
           <Link to={step.slug}>
             <div
@@ -20,7 +20,7 @@ function TableAnimate() {
               md:grid-cols-[0.5fr_1fr_2fr] 
               items-center cursor-pointer py-10 px-4 md:px-8 
               transition-all duration-300 
-              ${hoveredStep === index ? "bg-gray-100 text-black" : "bg-white"}`}
+              ${hoveredStep === index ? "bg-gray-100 text-black" : " "}`}
             >
               <div className="md:hidden w-full flex flex-col gap-2">
                 <p className="text-gray-400 font-300 text-[16px] text-right -mt-5">

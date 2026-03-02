@@ -29,7 +29,7 @@ function Switcher({ video, details, theme }) {
 
       {/* VIDEO SECTION - Always Light */}
       {isVideo ? (
-        <div className="mt-4 border rounded-xl p-1 shadow-md bg-white">
+        <div className="mt-4 border rounded-xl p-1 shadow-md ">
           <video
             src={video}
             autoPlay
@@ -45,8 +45,8 @@ function Switcher({ video, details, theme }) {
             border 
             ${
               isDark
-                ? "bg-[#0E1117] text-white border-white/10" // DARK MODE
-                : "bg-white text-black border-black/10" // LIGHT MODE
+                ? "text-white border-white/10" // DARK MODE
+                : " text-black border-black/10" // LIGHT MODE
             }
           `}
         >

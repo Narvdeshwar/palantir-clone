@@ -3,7 +3,7 @@ import HeroSubCompHeader from "./subcomp/HeroSubCompHeader";
 
 function HeroSubheader() {
   return (
-    <div className="bg-[#1F2225]">
+    <div className="">
       {HeroSubheaderData.map((item) => (
         <HeroSubCompHeader items={item} />
       ))}

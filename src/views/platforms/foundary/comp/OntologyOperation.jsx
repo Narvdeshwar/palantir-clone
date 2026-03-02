@@ -14,7 +14,7 @@ const offerings = [
 const OntologyOperations = () => {
   return (
     <>
-      <section className="bg-white py-16 px-6 md:px-12 lg:px-4">
+      <section className=" py-16 px-6 md:px-12 lg:px-4">
         <div className="w-[98%] mx-auto flex flex-col lg:flex-row gap-3 lg:gap-3">
           {/* Left Column: Heading */}
           <div className="w-1/2">

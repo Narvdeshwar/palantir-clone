@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutJSPARKVision() {
   return (
-    <div className="bg-[#1F2225] h-screen flex flex-col justify-around items-center p-10 text-white">
+    <div className="h-screen flex flex-col justify-around items-center p-10 text-white">
       <p className="text-8xl">Are you ready?</p>
       <p className="text-9xl">J</p>
       <p className="text-5xl">Help revolutionize technology and accelerate software's future</p>

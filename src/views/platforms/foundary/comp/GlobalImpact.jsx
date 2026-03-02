@@ -3,7 +3,7 @@ import { sections } from "@/lib/data/section-global";
 const GlobalImpact = () => {
   return (
     <>
-      <div className="bg-white text-gray-900 py-16 px-4 sm:px-6 lg:px-8 font-sans">
+      <div className=" text-gray-900 py-16 px-4 sm:px-6 lg:px-8 font-sans">
         <div className="w-[95%] mx-auto">
           {/* Main Heading */}
           <div className="mb-20">

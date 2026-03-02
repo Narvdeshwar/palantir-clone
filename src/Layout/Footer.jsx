@@ -30,7 +30,7 @@ export const FooterList = ({ title, items, className = "", theme }) => (
                 inline-block h-px rounded-sm w-0 shrink-0 opacity-0
                 transition-all duration-300 ease-in-out
                 group-hover:w-4 group-hover:opacity-100
-                ${theme === "light" ? "bg-gray-500" : "bg-gray-400"}
+                ${theme === "light" ? " 0" : "bg-gray-400"}
               `}
             ></span>
 
@@ -51,7 +51,7 @@ export const FooterList = ({ title, items, className = "", theme }) => (
 
 function Footer({ theme = "light" }) {
   return (
-    <div className={`${theme === "light" ? "bg-gray-50" : "bg-[#1E2124]"}`}>
+    <div className={`bg-structure`}>
       <div
         className="
           w-[95%] mx-auto py-12 gap-10 mt-5 md:mt-0
@@ -71,8 +71,8 @@ function Footer({ theme = "light" }) {
 
               <p
                 className={`text-sm cursor-pointer pb-5 transition-colors duration-300 ${theme === "light"
-                    ? "text-gray-600 hover:text-black"
-                    : "text-gray-300 hover:text-white"
+                  ? "text-gray-600 hover:text-black"
+                  : "text-gray-300 hover:text-white"
                   }`}
               >
                 Cookies Settings

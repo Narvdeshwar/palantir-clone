@@ -9,7 +9,7 @@ export default function WhatOtherSay() {
   ];
 
   return (
-    <div className="bg-white p-10">
+    <div className=" p-10">
       <div className="w-full overflow-hidden">
         <span className="border-t w-full h-5 inline-block text-gray-300"></span>
         <p className="text-[30px] font-medium mb-6">
@@ -80,7 +80,7 @@ export default function WhatOtherSay() {
         </Link>
 
         {/* RIGHT BUTTON */}
-        <div className="bg-[#1e1f2b] text-white px-5 py-3 rounded-md cursor-pointer">
+        <div className="text-white px-5 py-3 rounded-md cursor-pointer">
           <div
             className="flex justify-between  transition-all duration-300 ease-out
       hover:scale-[0.97]"

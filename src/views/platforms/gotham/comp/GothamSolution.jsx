@@ -5,13 +5,13 @@ export default function JSPARKVisionSolution() {
   return (
     <div className="flex flex-col md:flex-row h-screen w-full p-10 gap-10">
       {/* Left Column */}
-      <div className="w-full md:w-1/2 bg-gray-50 hover:bg-[#1F2225] p-8 md:p-16 flex flex-col justify-between relative rounded-xl cursor-pointer group transition-colors duration-700 shadow-2xl">
+      <div className="w-full md:w-1/2 hover:p-8 md:p-16 flex flex-col justify-between relative rounded-xl cursor-pointer group transition-colors duration-700 shadow-2xl">
         {/* Header */}
         <div className="flex justify-between items-start">
           <h2 className="text-black group-hover:text-white text-3xl md:text-5xl font-light tracking-tight transition-colors duration-300">
             Explore Defense Solutions
           </h2>
-          <div className="rounded-full border border-gray-300 group-hover:border-gray-600 p-2 group-hover:bg-white/10 transition-colors duration-300 cursor-pointer">
+          <div className="rounded-full border border-gray-300 group-hover:border-gray-600 p-2 group-hover: /10 transition-colors duration-300 cursor-pointer">
             <ArrowUpRight className="text-black group-hover:text-white w-6 h-6 transition-colors duration-300" />
           </div>
         </div>

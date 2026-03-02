@@ -13,7 +13,7 @@ export default function ExploreSolutions() {
 
   return (
     <>
-      <section className="w-full bg-white">
+      <section className="w-full ">
         {/* Explore Apollo Solutions */}
         <div className="px-6 lg:px-20 py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">

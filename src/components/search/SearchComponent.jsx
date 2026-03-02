@@ -25,7 +25,7 @@ function SearchComponent() {
     show: { opacity: 1, y: 0 },
   };
   return (
-    <div className="bg-[#1E2124] h-screen flex flex-col justify-center">
+    <div className="h-screen flex flex-col justify-center">
       <div className="h-[80vh] ">
         <div className="flex justify-between items-center w-[98%] mx-auto">
           <svg
@@ -45,14 +45,14 @@ function SearchComponent() {
             <div className="flex border border-white">
               <Button
                 size="icon"
-                className="hover:bg-white hover:text-black border-none"
+                className="hover: hover:text-black border-none"
                 onClick={() => goTo("/")}
               >
                 <X strokeWidth={0.9} className="hover:text-black" />
               </Button>
               <Button
                 size="icon"
-                className="bg-[#1E2124] text-white hover:bg-white hover:text-black border-none"
+                className="text-white hover: hover:text-black border-none"
                 onClick={() => goTo("/menu")}
               >
                 <List strokeWidth={0.9} />

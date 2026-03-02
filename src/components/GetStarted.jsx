@@ -11,7 +11,7 @@ export default function GetStarted({ onClose }) {
         onClick={onClose}
       />
       <div
-        className="fixed top-0 right-0 h-screen w-full md:w-1/2 bg-white shadow-2xl z-9999 overflow-y-auto transition-transform duration-500"
+        className="fixed top-0 right-0 h-screen w-full md:w-1/2 shadow-2xl z-9999 overflow-y-auto transition-transform duration-500"
         role="dialog"
       >
         <button

@@ -23,7 +23,7 @@ const JsparkFoundry = () => {
                 className="
             absolute left-8
             mt-4 w-[96%]
-            bg-[#1c1c1c] text-white 
+            text-white 
             p-10 shadow-xl grid grid-cols-4 gap-10 
             z-50 rounded-xl
           "
@@ -55,7 +55,7 @@ const JsparkFoundry = () => {
                 className="
       absolute left-1/2 -translate-x-1/2 mt-4
       w-[96vw]
-      bg-[#1c1c1c] text-white p-12 shadow-xl
+      text-white p-12 shadow-xl
       z-50 rounded-xl grid grid-cols-2 gap-10
     "
                 onClick={(e) => e.stopPropagation()}
@@ -92,7 +92,7 @@ const JsparkFoundry = () => {
                 className="
       absolute left-1/2 -translate-x-1/2 mt-4
       w-[96vw]
-      bg-[#1c1c1c] text-white p-12 shadow-xl
+      text-white p-12 shadow-xl
       z-50 rounded-xl grid grid-cols-2 gap-10
     "
                 onClick={(e) => e.stopPropagation()}

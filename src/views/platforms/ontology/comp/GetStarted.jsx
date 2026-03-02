@@ -14,7 +14,7 @@ export default function GetStarted() {
 
   return (
     <>
-      <section className="w-full px-6 lg:px-20 py-20 bg-[#f7f7f9]">
+      <section className="w-full px-6 lg:px-20 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sticky top-0">
           {/* LEFT TITLE + ANIMATED LINE */}
           <div>
@@ -24,7 +24,7 @@ export default function GetStarted() {
           </div>
 
           {/* RIGHT FORM */}
-          <form className="space-y-4  bg-white p-10 border rounded-2xl shadow-sm">
+          <form className="bg-card space-y-4 p-10">
             {formData.fields.map((field, index) => (
               <FormFields
                 key={index}
@@ -48,7 +48,7 @@ export default function GetStarted() {
             </div>
 
             {/* Submit button */}
-            <button className="border border-gray-800 px-8 py-2 text-sm hover:bg-gray-900 hover:text-white rounded-md cursor-pointer transition">
+            <button className="btn-primary">
               {formData.submitText}
             </button>
           </form>

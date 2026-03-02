@@ -30,7 +30,7 @@ export default function GetStarted() {
 
   return (
     <>
-      <div className="min-h-screen bg-white text-[#111] px-3 py-20">
+      <div className="min-h-screen text-[#111] px-3 py-20">
         {/* HEADER */}
         <div className="flex flex-col lg:flex-row justify-between w-[98%] mx-auto gap-10 mt-10">
           <h1 className="text-[100px] leading-none font-light tracking-tight">

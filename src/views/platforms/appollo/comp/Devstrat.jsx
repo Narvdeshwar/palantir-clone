@@ -1,7 +1,7 @@
 export default function DevOpsStrategy() {
   return (
     <>
-      <section className="w-full bg-white px-6 lg:px-20 py-24">
+      <section className="w-full px-6 lg:px-20 py-24">
         <div className="w-1/2">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light leading-tight mb-10">
             Reliable decisions depend on trusted documentation →
@@ -59,7 +59,7 @@ export default function DevOpsStrategy() {
             ↳ Mike Younkers, Senior Director of Engineering, Government
             Solutions at Cisco
           </p>
-          <button className="border border-black px-8 py-4 text-sm transition bg-black text-white rounded-md hover:bg-white hover:text-black cursor-pointer">
+          <button className="border border-black px-8 py-4 text-sm transition bg-black text-white rounded-md hover: hover:text-black cursor-pointer">
             Watch the OpsMind customer Testimonial →
           </button>
         </div>

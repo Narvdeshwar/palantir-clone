@@ -74,7 +74,7 @@ function Explore() {
   }, []);
 
   return (
-    <div className="bg-[#1D1F2B] pb-10">
+    <div className="pb-10">
       {/* HEADER */}
       <div className="flex flex-col md:flex-row justify-between w-[95%] mx-auto gap-6 pt-20">
         <div>
@@ -137,14 +137,14 @@ function Explore() {
                 return (
                   <div key={key}>
                     <div
-                      className={`absolute z-20 bg-white/10 rounded-md transition-all duration-700 ${divPos}`}
+                      className={`absolute z-20 /10 rounded-md transition-all duration-700 ${divPos}`}
                       style={{
                         opacity: isActive ? 1 : 0,
                         transform: isActive ? "scale(1)" : "scale(0.9)",
                       }}
                     />
                     <span
-                      className={`absolute size-6 sm:size-8 bg-white/50 text-black ${spanPos}
+                      className={`absolute size-6 sm:size-8 /50 text-black ${spanPos}
                         -translate-x-1/2 -translate-y-1/2 rounded-full flex items-center justify-center font-bold transition-all duration-700`}
                       style={{
                         opacity: isActive ? 1 : 0,
