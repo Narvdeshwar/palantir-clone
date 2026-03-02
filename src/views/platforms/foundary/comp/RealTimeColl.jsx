@@ -7,13 +7,12 @@ const OntologySection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div>
             <h2 className="text-5xl leading-16">
-              Step Into Real-Time Collaboration
+              Step Into Real-Time Asset Operations
             </h2>
           </div>
           <div>
             <p className="text-xl md:text-3xl text-slate-800 leading-relaxed">
-              Execute faster with universal logic representing the objects,
-              actions, and processes of your business.
+              Operate faster with unified asset and maintenance workflows across your infrastructure.
             </p>
           </div>
         </div>

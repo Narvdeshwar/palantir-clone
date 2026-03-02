@@ -1,40 +1,42 @@
+import { V5, V6, V7, V8, V9 } from "../../assets/videos";
+
 const steps = [
   {
     id: "0.1",
-    title: "Automate operations, from the factory floor to the front lines",
-    description: "AIP",
-    src: "https://www.palantir.com/assets/xrfr7uokpv1b/1ZAGlJWcYtVmMckdqFKUNW/7ff05eda0bd3471eba68c522caa32872/homepage_-_AIP.mov?format=mp4",
+    title: "The autonomous brain that listens to voice commands, executes SOPs, triggers lockdowns, dispatch, recovery — securely & instantly.",
+    description: "OpsUnity",
+    src: V5,
     slug: "/platforms/aip",
   },
   {
     id: "0.2",
-    title: "Achieve AI-driven combat superiority, from space to mud",
-    description: "GOTHAM",
-    src: "https://www.palantir.com/assets/xrfr7uokpv1b/6pvakzOU4AhfZjrgbrRXr9/ed5bb90509c20aa199058c74b3d7efd0/homepage_-_Gotham.mov",
+    title: "AI dashboards that let police & govt officers ask questions in plain language and see real-time crime, performance & risk insights.",
+    description: "JSPARK Vision",
+    src: V6,
     slug: "/platforms/gotham",
   },
   {
     id: "0.3",
     title:
-      "Build and manage Ontology-powered software, with a complete developer platform",
-    description: "FOUNDARY",
-    src: "https://www.palantir.com/assets/xrfr7uokpv1b/2yuGstJPCnqZBe7DOcOVNx/85275c8cb70fef128d8eda7af4900690/homepage_-_Foundry.mov?format=mp4",
+      "AI system that predicts failure of assets, energy systems, vehicles, and manpower before breakdown happens.",
+    description: "Prime EAM",
+    src: V7,
     slug: "/platforms/foundary",
   },
   {
     id: "0.4",
     title:
-      "The central system for orchestrating decisions across Human+AI teams",
-    description: "Ontology",
-    src: "https://www.palantir.com/assets/xrfr7uokpv1b/4hKQ7uw6vsjxrlntoFav6k/d9ea76812927c7b04539acc5463d3300/homepage_-_Apollo.mov?format=mp4",
+      "AI-powered command center that connects police, disaster teams, and infrastructure into one real-time response system.",
+    description: "OpsSharthi",
+    src: V8,
     slug: "/platforms/ontology",
   },
-    {
+  {
     id: "0.5",
     title:
-      "Autonomously deploy, monitor, and manage software across any environment",
-    description: "Appollo",
-    src: "https://www.palantir.com/assets/xrfr7uokpv1b/4hKQ7uw6vsjxrlntoFav6k/d9ea76812927c7b04539acc5463d3300/homepage_-_Apollo.mov?format=mp4",
+      "An AI system that organizes documents, enables quick search, and creates summaries, helping teams find information fast with secure access.",
+    description: "OpsMind",
+    src: V9,
     slug: "/platforms/appollo",
   },
 ];

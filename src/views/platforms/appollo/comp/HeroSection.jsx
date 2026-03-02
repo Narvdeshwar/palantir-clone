@@ -8,7 +8,7 @@ function HeroSection() {
     <section className="w-full bg-white">
       {/* Top Nav */}
       <nav className="flex items-center justify-between px-6 lg:px-10 py-6 mt-20 relative">
-        <div className="text-xl font-medium">Apollo</div>
+        <div className="text-xl font-medium">OpsMind</div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-8 text-sm text-gray-600">
@@ -46,9 +46,9 @@ function HeroSection() {
       <div className="grid grid-cols-1 lg:grid-cols-[0.5fr_1.5fr] gap-10 px-6 lg:px-10 py-20 items-center">
         {/* Left Content */}
         <div className="space-y-8">
-          <h1 className="text-6xl font-light">Apollo</h1>
+          <h1 className="text-6xl font-light">OpsMind</h1>
           <p className="text-5xl font-light leading-tight max-w-xl">
-            Deploy Software Beyond Limits.
+            Turn documents into verifiable intelligence
           </p>
 
           <button className="inline-flex items-center gap-3 bg-black text-white px-6 py-4 rounded-md text-sm hover:opacity-90 transition">

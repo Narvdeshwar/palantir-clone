@@ -18,13 +18,13 @@ function HeroSection() {
         {/* Section 1 */}
         <div className="p-10 flex justify-around items-center space-y-10 flex-col md:flex-row">
           <TypewriterText
-            text="Ontology System"
+            text="OpsSharthi System"
             className="text-8xl text-center"
             speed={40}
           />
 
           <TypewriterText
-            text="The Decision-Centric System for Enterprise Autonomy."
+            text="The operational brain for real-time infrastructure control."
             className="text-2xl max-w-xl text-center md:text-left"
             speed={20}
           />
@@ -35,13 +35,13 @@ function HeroSection() {
         {/* Section 2 */}
         <div className="p-10 flex justify-around items-center space-y-10 flex-col md:flex-row">
           <TypewriterText
-            text="The Core of the Enterprise Autonomy Stack"
+            text="The foundation of unified operational control"
             className="text-5xl max-w-2xl"
             speed={35}
           />
 
           <TypewriterText
-            text="Encode the data, logic, action, and security of the enterprise to automate decisions across operations."
+            text="Connects infrastructure data, operational workflows, and safety systems to coordinate automated responses in real time."
             className="text-2xl max-w-xl text-center md:text-left"
             speed={18}
           />

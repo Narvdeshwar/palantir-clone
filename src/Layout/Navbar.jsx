@@ -9,13 +9,13 @@ import GetStarted from "../components/GetStarted";
 
 function Navbar() {
   const navigate = useNavigate();
- 
+
   return (
     <div className="relative flex items-center">
       <VideoContainer videoPath={VIDEO_PATHS} />
       <Nav />
       <h1 className="absolute inset-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/4 text-white text-[clamp(20px,5vw,80px)] text-center font-Alliance2 font-AllianceNo1 w-full">
-        AI-Powered Automation <br /> for Every Decision
+        Smart AI <br /> for Frontline Decision-Making
       </h1>
       <p className="absolute bottom-5 left-1/2 -translate-x-1/2 text-white text-center">
         Scroll to explore
@@ -37,7 +37,7 @@ function Navbar() {
           </Button>
         </div>
       </div>
-      
+
     </div>
   );
 }

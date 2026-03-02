@@ -42,13 +42,13 @@ export default function HeroSubCompHeader({ items }) {
                 >
                     <div className="text-white flex justify-between w-[98%] mx-auto text-2xl pt-10">
                         <p>Software</p>
-                        <p>{"{Gotham}"}</p>
+                        <p>{"{JSPARK Vision}"}</p>
                         <p> Get Started</p>
                     </div>
                     <div className="flex flex-col items-center justify-center text-white grow pb-20">
                         <p className="text-9xl text-center leading-tight">{items.title}</p>
                         <p className="text-center text-2xl mt-6">
-                            Operating System for Global Decision-Making
+                            Intelligence, not just dashboards
                         </p>
                     </div>
                 </motion.div>

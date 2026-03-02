@@ -8,7 +8,7 @@ export default function ExploreSolutions() {
   const rightSolutions = [
     "Continuous Security & Compliance",
     "Digital Transformation and DORA Metrics",
-    "Apollo for Edge",
+    "OpsMind for Edge",
   ];
 
   return (
@@ -19,7 +19,7 @@ export default function ExploreSolutions() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
             {/* LEFT TITLE */}
             <h2 className="text-5xl lg:text-7xl font-light leading-tight">
-              Explore Apollo Solutions
+              Explore OpsMind Solutions
             </h2>
 
             {/* RIGHT SOLUTIONS ONLY */}
@@ -49,7 +49,7 @@ export default function ExploreSolutions() {
         {/* Federal CTA */}
         <div className="px-6 lg:px-20 py-32 text-center">
           <h3 className="text-4xl lg:text-6xl font-light mb-10 max-w-4xl mx-auto">
-            Looking to Deploy Software to the Federal Government?
+            Managing large-scale systems and teams? OpsMind is built for it.
           </h3>
           <button className="bg-black text-white px-10 py-4 text-sm hover:opacity-90 transition">
             FedStart →

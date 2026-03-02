@@ -19,7 +19,7 @@ const OntologyOperations = () => {
           {/* Left Column: Heading */}
           <div className="w-1/2">
             <h2 className="text-4xl md:text-6xl font-serif font-normal leading-[1.1] text-gray-900 tracking-tight">
-              Ontology-powered Operations Across Industries
+              OpsSharthi-powered Operations Across Industries
             </h2>
           </div>
 
@@ -29,13 +29,13 @@ const OntologyOperations = () => {
             <div className="space-y-6 text-xl text-gray-500 mb-16 font-sans">
               <p>
                 For more than a decade, we’ve embedded alongside our customers
-                to build Foundry backwards, starting from the most critical
+                to build Prime EAM backwards, starting from the most critical
                 operational decisions. We’ve encoded this tradecraft into our
                 product.
               </p>
               <p>
                 Today, some of the world’s most important institutions use
-                Foundry to build safer cars, secure global supply chains,
+                Prime EAM to build safer cars, secure global supply chains,
                 accelerate cancer research, and more.
               </p>
             </div>

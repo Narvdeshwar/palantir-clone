@@ -5,9 +5,9 @@ export default function OntologyStackSection() {
         {/* HEADER */}
         <div className="mb-16">
           <h2 className="text-5xl md:text-6xl font-semibold leading-tight">
-            Millions of decisions. <br />
-            Thousands of humans and agents. <br />
-            One Ontology.
+            Millions of events. <br />
+            Thousands of operational tasks. <br />
+            One command center — OpsSharthi.
           </h2>
         </div>
 

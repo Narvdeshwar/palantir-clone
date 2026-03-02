@@ -1,32 +1,32 @@
 const explain = [
   {
-    header: "Ontology Language",
+    header: "OpsSharthi Language",
     subheader:
-      "Modeling the decisions of Human+AI teams requires a system that can integrate the data, logic, action, and security of the enterprise.",
+      "OpsSharthi unifies humans and AI in a single operational environment, enabling real-time monitoring, predictive insights, and automated responses across complex infrastructure — from utilities and transport to industrial and enterprise operations.",
     content: [
       {
         id: 1,
-        title: "Encode the Data of the Enterprise.",
+        title: "Unify the Data of the Enterprise",
         description:
-          "The Ontology unifies disparate data sources — such as ERP, CRM, homegrown systems of record, industrial databases, geospatial repositories, real-time sensors, and document stores — into coherent objects, properties, and links. These semantic concepts — the “nouns” of the enterprise — enable the full range of Human+AI teams to securely interact with and manipulate complex underlying information. Multimodal Data Plane (MMDP) makes it easy to incorporate data from common data platforms such as Databricks, Snowflake, and BigQuery into the Ontology."
+          "OpsSharthi brings together diverse operational data — from IoT sensors, CCTV, SCADA, GIS, enterprise applications, and utilities — into a coherent operational model. These “objects and relationships” allow operators and AI agents to understand the full context of the infrastructure and interact securely with complex systems."
       },
       {
         id: 2,
-        title: "Encode the Actions of the Enterprise.",
+        title: "Coordinate the Actions of the Enterprise",
         description:
-          "In addition to the context of the enterprise, the Ontology also models the complete range of actions — or “verbs” — of the organization, from simple transactions to sophisticated multi-step workflows that write back to operational and edge systems. Every kinetic action is traceable, governed, and executable at scale."
+          "OpsSharthi models all operational actions — from field service assignments and automated alerts to multi-step response workflows. Every action is traceable, governed, and executable at scale, ensuring consistent operations across control rooms and field teams."
       },
       {
         id: 3,
-        title: "Encode the Logic of the Enterprise.",
+        title: "Encode the Logic of the Enterprise",
         description:
-          "The Ontology encodes the full spectrum of business logic that powers each action and allows for that logic to evolve over time, reflecting the diversity of reasoning that drives decision-making. Logic can range from simple business rules to conventional ML models, LLM-driven functions, or complex multi-step orchestrations that span multiple compute engines. Compute Modules accelerates the ability to integrate and operationalize your existing code, models, and business logic within the Ontology."
+          "The platform captures operational logic, ranging from business rules and SOPs to predictive maintenance models and AI-assisted workflows. Logic evolves with patterns, anomalies, and historical behavior, enabling operations to move from reactive management to predictive, autonomous control."
       },
       {
         id: 4,
-        title: "Encode the Security of the Enterprise.",
+        title: "Govern Security and Compliance",
         description:
-          "The Ontology orchestrates granular security policies across data, logic, and action primitives — governing interactions for tens of thousands of humans and agents simultaneously.",
+          "OpsSharthi enforces governance and security across data, logic, and actions. Role-based access, audit trails, and policy enforcement allow tens of thousands of users and AI agents to operate securely in multi-department environments.",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/QzyB81cjso0plPluPx0X0/5b2071bdae2f94e761b6e39736a4fbb0/Asset_93.png?quality=70&width=1600"
       }
     ]
@@ -34,26 +34,26 @@ const explain = [
 
   // ----------------------------------------------
   {
-    header: "Ontology Engine",
-    subheader: "Orchestrate complex operations at enterprise scale.",
+    header: "OpsSharthi Engine",
+    subheader: "Orchestrate operations at scale.",
     content: [
       {
         id: 1,
-        title: "Millions of reads, millions of writes. One unified reality.",
+        title: "One unified operational reality.",
         description:
-          "The Ontology’s scalable architecture handles real-time operations across Human+AI teams, while enforcing consistency and integrity."
+          "The platform handles millions of reads and writes across sensors, CCTV, enterprise applications, and field systems, maintaining real-time visibility, consistency, and reliability across all operational touchpoints."
       },
       {
         id: 2,
         title: "Activate your existing infrastructure.",
         description:
-          "The Ontology coordinates read operations (e.g., queries and subscriptions to state changes), as well as write operations (e.g., transactional updates and high-scale batch mutations) across heterogeneous infrastructure — from data lakes and warehouses to operational databases and real-time systems — while enforcing unified security policies at every layer."
+          "OpsSharthi seamlessly integrates with your current systems, coordinating data reads (e.g., state changes, monitoring feeds) and write operations (e.g., automated work-orders, dispatch actions, incident resolution) across data lakes, operational databases, and real-time platforms — all while enforcing security and governance at every layer."
       },
       {
         id: 3,
         title: "Operate in sync.",
         description:
-          "Continuous synchronization with operational systems ensures decisions made in the Ontology are reflected where actions take effect in the real world with extremely low latency.",
+          "Continuous synchronization ensures that decisions made in OpsSharthi are immediately reflected where actions take effect in the real world, keeping control rooms, field teams, and automated workflows aligned with minimal latency for faster, smarter operations.",
         video:
           "https://www.palantir.com/assets/xrfr7uokpv1b/6SnJjmQnRloLuqa1Wngeqm/c765141a58a6fa88e4e41a479a78ee2d/read-write.mp4"
       }
@@ -62,26 +62,26 @@ const explain = [
 
   // ----------------------------------------------
   {
-    header: "Ontology Toolchain",
-    subheader: "Empower developers and agents to treat the Ontology as a backend.",
+    header: "OpsSharthi Toolchain",
+    subheader: "Turn OpsSharthi into the engine for building AI-powered operational tools.",
     content: [
       {
         id: 1,
-        title: "Build rich AI-enabled applications and services.",
+        title: "Turn OpsSharthi into a development backend.",
         description:
-          "Ontology SDK (OSDK), a powerful developer toolchain, and a rich collection of DevOps capabilities enable developer teams across industries to build production use cases, from wildfire response, to naval logistics, to automotive assembly, and countless others."
+          "The OpsSharthi SDK (OSDK) and developer tools empower teams to build AI-driven operational applications and workflows across industries — from smart city management and industrial automation to enterprise facilities and large-scale transport operations."
       },
       {
         id: 2,
-        title: "Create tools for any human or any agent.",
+        title: "Create tools for humans and AI agents alike.",
         description:
-          "The Ontology is a “tool factory” that lets your builders define tools for both humans and agents. Tools can be created to query any data type, call any model or piece of logic, or execute any action — all governed with a rigorous and comprehensive security framework."
+          "The platform acts as a “tool factory,” enabling developers to define reusable tools that can query operational data, execute multi-step workflows, or trigger automated responses — all within a secure, governed environment."
       },
       {
         id: 3,
-        title: "Turn specialized expertise into shared infrastructure.",
+        title: "Capture and share expertise across teams.",
         description:
-          "Teams from across the enterprise — whether operators, data scientists, analysts, or data engineers — can compose reusable tools that encode their domain expertise directly into the Ontology. Tools power interlocking workflows and automations, accelerating development while ensuring consistency across use cases.",
+          "Operators, engineers, and analysts can encode domain knowledge directly into the platform. These reusable tools power coordinated workflows and automated operations, reducing duplication, accelerating development, and ensuring consistency across all operational processes.",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/5lD6CIYE2ijjOwVesGtMCi/464ee2b376a7a6e19f52f4a3a761c298/Asset_96.png?quality=70&width=1600"
       }
     ]
@@ -121,7 +121,7 @@ export default function OntologyExplainPage() {
               {/* CONTENT BLOCKS */}
               {section.content.map((item, idx) => (
                 <div key={item.id} className="space-y-4">
-                  
+
                   <h3 className="text-2xl font-semibold">{item.title}</h3>
 
                   <p className="text-gray-700 leading-relaxed">

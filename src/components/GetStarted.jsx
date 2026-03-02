@@ -1,4 +1,4 @@
-import {  ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import FormFields from "./FormFields";
 import { formFields } from "../lib/data/form-fields";
 import Button from "./Button";
@@ -36,7 +36,7 @@ export default function GetStarted({ onClose }) {
             </div>
           </div>
           <p className="w-[60%] text-4xl mt-10 px-3 font-600 font-sans">
-            Interested in solving your problems with Palantir software?
+            Interested in solving your problems with Jspark software?
           </p>
           <div className="p-3">
             <form action="">
@@ -56,7 +56,7 @@ export default function GetStarted({ onClose }) {
           </div>
         </div>
       </div>
-     
+
     </>
   );
 }

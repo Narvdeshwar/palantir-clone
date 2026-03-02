@@ -36,17 +36,9 @@ function PlatformInfo() {
         }}
         className="text-[clamp(22px,5vw,62px)] text-black text-center font-600 px-6 platform-info"
       >
-        Our software powers real-time,&nbsp;
-        <motion.span
-          style={{
-            opacity: useTransform(scrollYProgress, [0.25, 0.5], [0.4, 1]),
-          }}
-          className="font-medium text-black"
-        >
-          AI-driven <br />
-        </motion.span>{" "}
-        decisions in critical government and <br /> commercial enterprises in
-        the West, from the <br /> factory floors to the front lines.
+        JSPARK AI is building India’s sovereign AI Operating System that enables
+        predictive intelligence, autonomous command, and real-time coordination
+        for defence, police, smart cities, and critical infrastructure.
       </motion.p>
     </section>
   );

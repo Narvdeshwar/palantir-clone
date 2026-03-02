@@ -38,7 +38,7 @@ export default function GetStarted() {
           </h1>
 
           <p className="text-2xl max-w-sm leading-snug text-[#333]">
-            Interested in solving your problems with Palantir software?
+            Interested in solving your problems with Jspark software?
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function GetStarted() {
           {/* CHECKBOXES */}
           <Checkbox
             name="productUpdates"
-            text="OPT-IN TO RECEIVE PALANTIR PRODUCT UPDATES"
+            text="OPT-IN TO RECEIVE JSPARK PRODUCT UPDATES"
             checked={form.productUpdates}
             onChange={handleCheckbox}
           />
@@ -113,7 +113,7 @@ export default function GetStarted() {
           </p>
         </form>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

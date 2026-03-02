@@ -6,18 +6,23 @@ import TableAnimate from "./components/TabelAnimate";
 import WhatWeDo from "./components/WhatWeDo";
 import WhatOtheSay from "./components/WhatOtheSay";
 import GetStarted from "../../components/GetStarted";
+// import image from "../../../assets/images/home/business-meeting-office.jpg";
+
+
 
 function Home() {
   return (
     <>
-      <Navbar/>
+      <Navbar />
       <Carousel />
       <PlatformInfo />
       <p className="bg-white p-5 font-300 text-3xl">Our products</p>
       <TableAnimate />
       <WhatWeDo />
       <WhatOtheSay />
-      
+      {/* <business-meeting-office /> */}
+
+
     </>
   );
 }

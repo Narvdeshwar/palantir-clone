@@ -7,7 +7,8 @@ import TITAN from "./home/titan.png";
 import VANTAGE from "./home/vantage.png";
 import WARP from "./home/warp-speed.png";
 import INTELLIGENT from "./home/working-intelligent.png";
-
+import LOGO from "./home/logo.webp";
+import BUSSINESSMEETTING from "./home/business-meeting-office.jpg"
 export {
   AIPCON,
   DEFENCE,
@@ -18,4 +19,6 @@ export {
   VANTAGE,
   WARP,
   INTELLIGENT,
+  LOGO,
+  BUSSINESSMEETTING
 };

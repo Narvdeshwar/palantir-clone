@@ -16,7 +16,7 @@ function Solving() {
         {/* LEFT */}
         <div className="space-y-6 p-3 md:p-5">
           <p className="text-2xl sm:text-3xl md:text-4xl text-white leading-tight">
-            Solving complex problems across all industries in days, not years.
+            Turning operational complexity into intelligent control.
           </p>
 
           <button
@@ -26,7 +26,7 @@ function Solving() {
             transition-all duration-500
           "
           >
-            Explore AIP Now <ArrowRight />
+            Explore OpsUnity Now <ArrowRight />
           </button>
         </div>
 
@@ -73,7 +73,7 @@ function Solving() {
 
       {/* HEADING */}
       <p className="text-center text-4xl sm:text-5xl md:text-7xl text-white font-semibold">
-        Build now with AIP
+        Build now with OpsUnity
       </p>
 
       {/* CARDS SECTION */}

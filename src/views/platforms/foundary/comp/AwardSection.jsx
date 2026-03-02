@@ -4,25 +4,25 @@ import React from "react";
 const awards = [
   {
     title:
-      "Palantir Named a Leader in AI/ML Platforms by Independent Research Firm",
+      "Jspark Named a Leader in AI/ML Platforms by Independent Research Firm",
     description:
-      "“Palantir is rooted in building data-driven intelligence applications for complex, high-value government and commercial use cases.”",
+      "“Jspark is rooted in building data-driven intelligence applications for complex, high-value government and commercial use cases.”",
     source: "— The Forrester Wave™: AI/ML Platforms, Q3 2022",
     linkText: "View the Full Report",
     linkUrl: "#",
   },
   {
     title:
-      "Palantir Ranked No. 1 in Worldwide Artificial Intelligence Software Study in Market Share and Revenue",
+      "Jspark Ranked No. 1 in Worldwide Artificial Intelligence Software Study in Market Share and Revenue",
     description:
-      "“Palantir has demonstrated its clear leadership in AI on a global scale from both a market share and revenue perspective…we’re excited to see how Palantir continues to separate itself from the competition by solving the toughest business challenges out there with their platforms.”",
+      "“Jspark has demonstrated its clear leadership in AI on a global scale from both a market share and revenue perspective…we’re excited to see how Jspark continues to separate itself from the competition by solving the toughest business challenges out there with their platforms.”",
     source: "— Ritu Jyoti, IDC’s Group VP, AI and Automation",
     linkText: "Read the Press Release",
     linkUrl: "#",
   },
   {
     title:
-      "Gartner Names Palantir a Visionary in the Magic Quadrant for Data Integration Tools",
+      "Gartner Names Jspark a Visionary in the Magic Quadrant for Data Integration Tools",
     description: "",
     source: "— Gartner MQ™, Q3 2022",
     linkText: "",
@@ -67,6 +67,6 @@ export default function AwardsSection() {
         </div>
       </section>
       <hr className="w-[95%] mx-auto" />
-      </>
+    </>
   );
 }

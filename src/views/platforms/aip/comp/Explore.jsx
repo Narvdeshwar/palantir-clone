@@ -79,7 +79,7 @@ function Explore() {
       <div className="flex flex-col md:flex-row justify-between w-[95%] mx-auto gap-6 pt-20">
         <div>
           <p className="text-3xl sm:text-5xl text-white">Beyond Chat</p>
-          <p className="text-[#424662] text-lg sm:text-3xl">Explore AIP</p>
+          <p className="text-[#424662] text-lg sm:text-3xl">Explore OpsUnity</p>
         </div>
 
         <div className="flex gap-2 flex-wrap justify-start sm:justify-end">

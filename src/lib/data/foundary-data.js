@@ -1,6 +1,6 @@
 export const foundaryMenus = [
-  { title: "Palantier Foundary", slug: "/palantier-foundary" },
-  { title: "About the Ontology", slug: "/palantier-foundary-ontology" },
+  { title: "Jspark Prime EAM", slug: "/jspark-prime-eam" },
+  { title: "About the OpsSharthi", slug: "/jspark-opssharthi" },
 
   {
     title: "Industries",
@@ -77,12 +77,12 @@ export const foundaryMenus = [
   },
   {
     title: "Capabilities",
-    slug: "/palantir-capabilities",
+    slug: "/jspark-capabilities",
     type: "capabilities", // identifies different UI layout
     subMenu: {
       title: "Capabilities",
       description:
-        "Palantir Foundry offers an integrated suite of industry-agnostic capabilities for analysis, collaboration, and operations.",
+        "Jspark Prime EAM offers an integrated suite of industry-agnostic capabilities for analysis, collaboration, and operations.",
       columns: [
         ["AI + ML", "Dynamic Scheduling", "Marketplace", "Real-Time Alerting"],
         ["Data Integration", "Edge AI", "MetaConstellation", "Streaming"],
@@ -92,19 +92,19 @@ export const foundaryMenus = [
   },
 
   {
-    title: "Learn Foundry",
-    slug: "/palantir-learn-foundry",
+    title: "Learn Prime EAM",
+    slug: "/jspark-learn-foundry",
     type: "learn",
     subMenu: {
-      title: "Learn Foundry",
+      title: "Learn Prime EAM",
       description:
-        "Palantir Foundry enables organizations to solve their toughest data and operations challenges. Learn how with first-class resources →",
+        "Jspark Prime EAM enables organizations to solve their toughest data and operations challenges. Learn how with first-class resources →",
       columns: [
         ["Blog", "Documentation"],
         ["Customer Success", "Learning Hub"],
-        ["Developers Channel", "What's New in Foundry"],
+        ["Developers Channel", "What's New in Prime EAM"],
       ],
     },
   },
-  { title: "Start Building Now", slug: "/palantier-building-foundary" },
+  { title: "Start Building Now", slug: "/jspark-building-foundary" },
 ];

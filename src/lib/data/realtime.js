@@ -1,22 +1,22 @@
 export const features = [
   {
-    title: "Activate the Power of Your Data and Analytics.",
+    title: "Activate the Intelligence of Your Assets and Operations.",
     description:
-      "Weave your data and analytics directly into the daily decision-making happening across your core business and operational teams. Capture decisions for continuous learning.",
+      "Integrate real-time asset data, maintenance records, and energy usage into everyday operational decisions across facilities and field teams. Capture inspections, work orders, and performance history to continuously improve maintenance planning and operational efficiency.",
   },
   {
-    title: "Collaboration, Supercharged.",
+    title: "Collaboration, Unified.",
     description:
-      "Achieve real-time collaboration between your data, analytics, and operational teams. Integrate decision-making in a common logic layer, driving meaningful action as conditions evolve.",
+      "Enable real-time coordination between maintenance teams, supervisors, and field technicians through shared asset information and work orders. Align inspections, repairs, and operational updates in one system so actions are triggered immediately as asset conditions change.",
   },
   {
-    title: "The Best Way to Build.",
+    title: "The Smarter Way to Manage Assets.",
     description:
-      "Compose AI-powered workflows on a scalable architecture that re-uses your ontology's multi-modal objects, actions, and processes.",
+      "Build automated maintenance and operational workflows on a scalable platform that reuses asset records, work orders, inspections, and inventory processes across facilities and infrastructure.",
   },
   {
-    title: "No Duplication.",
+    title: "No Redundant Records.",
     description:
-      "Incorporate data and models from your enterprise architecture — without duplicating the underlying assets or fracturing existing sources of truth.",
+      "Integrate ERP, IoT, and operational systems into one asset management platform — maintaining a single source of truth for assets, maintenance history, inventory, and energy data without duplicating existing systems.",
   },
 ];

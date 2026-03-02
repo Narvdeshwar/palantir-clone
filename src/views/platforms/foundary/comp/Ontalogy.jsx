@@ -4,7 +4,7 @@ import React from "react";
 function Ontalogy() {
   return (
     <div className="w-[95%] mx-auto">
-      <p className="py-12 text-8xl">The Foundry Ontology</p>
+      <p className="py-12 text-8xl">The Prime EAM</p>
       <div className="flex gap-24 w-[90%] mx-auto mb-10">
         <div>
           <img
@@ -14,14 +14,10 @@ function Ontalogy() {
         </div>
         <div className="flex flex-col gap-10">
           <p className="text-2xl">
-            Activate your data and analytics in a dynamic system for closed-loop
-            operations.
+            Activate your assets and operations in a unified lifecycle management system.
           </p>
           <p className="text-xl">
-            The Foundry Ontology is the heart of Palantir Foundry. It integrates
-            the semantic, kinetic, and dynamic elements of your business —
-            empowering your teams to harmonize and automate decision-making in
-            complex settings.
+            JSPARK Prime EAM serves as the operational core of infrastructure and resource management. It connects assets, maintenance workflows, inventory, energy usage, and field operations into one coordinated environment — enabling teams to monitor conditions, schedule maintenance, optimize resources, and automate operational decisions across facilities and infrastructure networks.
           </p>
           <p
             className="
@@ -31,7 +27,7 @@ function Ontalogy() {
   hover:after:w-0
 "
           >
-            Discover the Foundry Ontology <ArrowRight />
+            Discover the Prime EAM <ArrowRight />
           </p>
         </div>
       </div>

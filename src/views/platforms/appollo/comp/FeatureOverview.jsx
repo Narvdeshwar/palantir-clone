@@ -7,14 +7,11 @@ export function FeatureOverview() {
         {/* Top Text */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 mb-24">
           <p className="text-xl font-light text-gray-800 leading-relaxed max-w-xl">
-            With today’s customer, security, and regulatory demands, software
-            deployment is becoming more complex.
+            With growing regulatory and compliance requirements, managing technical documentation is becoming increasingly complex.
           </p>
 
           <p className="text-xl font-light text-gray-800 leading-relaxed max-w-xl">
-            Apollo brings years of R&D across advanced deployments into an
-            intelligent platform that is flexible and extensible to you — and
-            your customers’ — particular needs.
+            OpsMind transforms fragmented technical documentation into a structured, intelligent knowledge platform tailored to your organization’s compliance and decision-making needs.
           </p>
         </div>
 

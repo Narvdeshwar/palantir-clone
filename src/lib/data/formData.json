@@ -1,5 +1,5 @@
 {
-  "title": "Get Started with the Ontology",
+  "title": "Get Started with the OpsSharthi",
   "fields": [
     {
       "labelName": "First Name",
@@ -50,7 +50,7 @@
     }
   ],
   "checkboxes": [
-    "Opt-in to receive Palantir product updates",
+    "Opt-in to receive Jspark product updates",
     "Opt-in: Personalized sales outreach",
     "Opt-in to receive invites to future events",
     "Opt-in to receive educational resources"

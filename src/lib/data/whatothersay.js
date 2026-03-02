@@ -9,14 +9,14 @@ const whatOtherSayAbout = [
   {
     company: "WALGREENS",
     quote:
-      "We started with the goal of piloting 10 stores within about six months. However, leveraging Foundry and AIP, we began to see real promise quickly in composing AI-powered, end-to-end workflows that allowed us to get to about 4000 stores within eight months.",
+      "We started with the goal of piloting 10 stores within about six months. However, leveraging Prime EAM and OpsUnity, we began to see real promise quickly in composing AI-powered, end-to-end workflows that allowed us to get to about 4000 stores within eight months.",
     author_name: "Jeff Hoffman",
     author_title: "Walgreens, VP, Product Pharmacy",
   },
   {
     company: "AT&T",
     quote:
-      "[S.C.O.U.T] began as a joint effort between AT&T and Palantir, and now has over 100 AT&T dedicated engineers and a dedicated support team…for this application. It's just one of the 660 applications we have on Foundry today.",
+      "[S.C.O.U.T] began as a joint effort between AT&T and Jspark, and now has over 100 AT&T dedicated engineers and a dedicated support team…for this application. It's just one of the 660 applications we have on Prime EAM today.",
     author_name: "Dan Wagner",
     author_title: "Dir. of Technology, AT&T",
   },
@@ -30,7 +30,7 @@ const whatOtherSayAbout = [
   {
     company: "HEINEKEN",
     quote:
-      "We had a great chassis of the car. But our engine was underpowered. So we went to Palantir because we want to have the best engine out there...In three months, [the teams] built what took us three years before.",
+      "We had a great chassis of the car. But our engine was underpowered. So we went to Jspark because we want to have the best engine out there...In three months, [the teams] built what took us three years before.",
     author_name: "Laurens van de Rotte",
     author_title: "Chief Operating Officer, Heineken USA",
   },
@@ -66,28 +66,28 @@ const whatOtherSayAbout = [
   {
     company: "AARP",
     quote:
-      "Foundry and AIP have been terrific for us. We launched the first prototype within 45 days. And that was just amazing from my perspective.",
+      "Prime EAM and OpsUnity have been terrific for us. We launched the first prototype within 45 days. And that was just amazing from my perspective.",
     author_name: "Sami Hassanyeh",
     author_title: "AARP, SVP Digital Strategy & Membership",
   },
   {
     company: "LOWE'S",
     quote:
-      "In less than four months, we created something from POC all the way to production. Palantir has made us faster and smarter.",
+      "In less than four months, we created something from POC all the way to production. Jspark has made us faster and smarter.",
     author_name: "Elaina Wheeldon",
     author_title: "Lowe's, VP Data Products, Applied AI, & Analytics",
   },
   {
     company: "CAZ INVESTMENTS",
     quote:
-      "With AIP, we can now process over 100 times more leads with the same amount of resources. This has reduced our lead processing time by over 90%.\n\nThis would not have been possible without AIP.",
+      "With OpsUnity, we can now process over 100 times more leads with the same amount of resources. This has reduced our lead processing time by over 90%.\n\nThis would not have been possible without OpsUnity.",
     author_name: "James Stuard",
     author_title: "CAZ Investments, VP of Finance",
   },
   {
     company: "PANASONIC ENERGY NORTH AMERICA",
     quote:
-      "Ask Atom [powered by Palantir AIP] serves as a vital training tool for our new, and even veteran technicians – cutting that 3-6 month learning curve down to just a few weeks.",
+      "Ask Atom [powered by Jspark OpsUnity] serves as a vital training tool for our new, and even veteran technicians – cutting that 3-6 month learning curve down to just a few weeks.",
     author_name: "Tara Meisinger",
     author_title: "Panasonic Energy North America, Sr. Maintenance Manager",
   },
@@ -101,14 +101,14 @@ const whatOtherSayAbout = [
   {
     company: "FUJITSU",
     quote:
-      "We've combined Foundry's data integration capabilities and Fujitsu's machine learning AI to transform our operations … creating alert systems, demand forecasting, inventory control systems, and so on. This transformation resulted in an impressive annual cost reduction of $9M within just 3 months.",
+      "We've combined Prime EAM's data integration capabilities and Fujitsu's machine learning AI to transform our operations … creating alert systems, demand forecasting, inventory control systems, and so on. This transformation resulted in an impressive annual cost reduction of $9M within just 3 months.",
     author_name: "Kazuki Hiraiso",
     author_title: "Fujitsu, Data Scientist",
   },
   {
     company: "ESI",
     quote:
-      "I attended a bootcamp not too long ago...and in 90 minutes, [the team] built an AIP module that was able to read a very poorly made scan...and issue a remarkably good judgment. This has blown our minds.",
+      "I attended a bootcamp not too long ago...and in 90 minutes, [the team] built an OpsUnity module that was able to read a very poorly made scan...and issue a remarkably good judgment. This has blown our minds.",
     author_name: "Timothy Gotsick",
     author_title: "ESI, Vice President Technology and Innovation",
   },
@@ -129,14 +129,14 @@ const whatOtherSayAbout = [
   {
     company: "ARCHER AVIATION",
     quote:
-      "We’ve been able to build an ontology...and really get this all to come together in a faster time scale than ever been seen for an aircraft certification program of this magnitude.",
+      "We’ve been able to build an OpsSharthi...and really get this all to come together in a faster time scale than ever been seen for an aircraft certification program of this magnitude.",
     author_name: "Adam Wormoth",
     author_title: "Archer Aviation, Head of Product",
   },
   {
     company: "CUMMINS",
     quote:
-      "You’ve got to have the right technology to be able to access [your data] fast...efficiently. That’s the difference with Foundry and building ontologies.",
+      "You’ve got to have the right technology to be able to access [your data] fast...efficiently. That’s the difference with Prime EAM and building OpsSharthis.",
     author_name: "Jim Jacob",
     author_title:
       "Cummins, VP Executive Director, Digitalization, Advanced Analytics and Artificial Intelligence",
@@ -144,28 +144,28 @@ const whatOtherSayAbout = [
   {
     company: "JACOBS",
     quote:
-      "Palantir's frontline mixed reality capabilities...will complement our technology goals of worker enablement and job site safety. No matter what industrial site our teams are at...workers gain access to data and insights in the field where it's most relevant and critical.",
+      "Jspark's frontline mixed reality capabilities...will complement our technology goals of worker enablement and job site safety. No matter what industrial site our teams are at...workers gain access to data and insights in the field where it's most relevant and critical.",
     author_name: "Shannon Miller",
     author_title: "Jacobs, SVP Digital Strategy",
   },
   {
     company: "TAMPA GENERAL HOSPITAL",
     quote:
-      "Palantir is going to be front and center for everything that we do…[the platform] is a strategic differentiator for us.",
+      "Jspark is going to be front and center for everything that we do…[the platform] is a strategic differentiator for us.",
     author_name: "John Couris",
     author_title: "Tampa General Hospital, CEO",
   },
   {
     company: "NORTHWIND TECHNICAL SERVICES",
     quote:
-      "We chose Palantir because their products are absolutely best in the class. We partnered with Palantir because their core values match with Northwind core values. And last, we win with Palantir because this relationship will make us a better competitor.",
+      "We chose Jspark because their products are absolutely best in the class. We partnered with Jspark because their core values match with Northwind core values. And last, we win with Jspark because this relationship will make us a better competitor.",
     author_name: "Michael Bosworth",
     author_title: "NorthWind Technical Services, Founder & CEO",
   },
   {
     company: "EATON",
     quote:
-      "We like to say that we make what matters work. Palantir is helping us focus on what matters.",
+      "We like to say that we make what matters work. Jspark is helping us focus on what matters.",
     author_name: "Brian Fifarek",
     author_title: "Eaton, Vice President Supply Chain Digitalization",
   },

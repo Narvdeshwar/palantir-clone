@@ -6,7 +6,7 @@ const Home = React.lazy(() => import("../views/home/Home"));
 const Search = React.lazy(() => import("../components/search/SearchComponent"));
 const Menu = React.lazy(() => import("../components/menu/Menu"));
 const Aip = React.lazy(() => import("../views/platforms/aip/Aip"));
-const Gotham = React.lazy(() => import("../views/platforms/gotham/Gotham"));
+const JSPARKVision = React.lazy(() => import("../views/platforms/gotham/Gotham"));
 const GetStarted = React.lazy(() => import("../views/get-started/GetStarted"));
 const Foundary = React.lazy(() =>
   import("../views/platforms/foundary/Foundary")
@@ -53,7 +53,7 @@ export const appRoutes = [
     path: "/platforms/gotham",
     element: (
       <PageTransition>
-        <Gotham />
+        <JSPARKVision />
       </PageTransition>
     ),
   },

@@ -1,9 +1,11 @@
+import { V6 } from "../../assets/videos";
+
 export const HeroSubheaderData = [
   {
     id: "1",
-    title: "Your software is the weapons system",
+    title: "The layer that predicts and executes.",
     videoSrc:
-      "https://videos.ctfassets.net/xrfr7uokpv1b/6a3SWJrFuBYdVcVbtbf1F9/54141348ba3e7ec29fb5f724f514c79b/Gotham-Full-Bleed-01.mp4",
+      V6,
     clipPath: {
       start: "circle(20% at 50% 50%)",
       end: "circle(100% at 50% 50%)",
@@ -11,7 +13,8 @@ export const HeroSubheaderData = [
   },
   {
     id: "2",
-    title: "Decision dominance from space to mud",
+    title: "Turning data into insight with AI",
+    subtitle: "Intelligence, not just dashboards",
     videoSrc:
       "https://videos.ctfassets.net/xrfr7uokpv1b/3rRWmaaeM4Pr8eNJ02EiyV/5bc091a994d35559145fb97fdd4f4155/Gotham-Full-Bleed-02.mp4",
     clipPath: {
@@ -21,8 +24,8 @@ export const HeroSubheaderData = [
   },
   {
     id: "3",
-    title: "Orchestrate combat power",
-    subtitle: "Operating System for Global Decision-Making",
+    title: "See. Decide. Act.",
+    subtitle: "Intelligence, not just dashboards",
     videoSrc:
       "https://videos.ctfassets.net/xrfr7uokpv1b/3rRWmaaeM4Pr8eNJ02EiyV/5bc091a994d35559145fb97fdd4f4155/Gotham-Full-Bleed-02.mp4",
     clipPath: {
@@ -32,7 +35,7 @@ export const HeroSubheaderData = [
   },
   {
     id: "4",
-    title: "AI-driven combat superiority",
+    title: "Smarter decisions through AI",
     videoSrc:
       "https://videos.ctfassets.net/xrfr7uokpv1b/3rRWmaaeM4Pr8eNJ02EiyV/5bc091a994d35559145fb97fdd4f4155/Gotham-Full-Bleed-02.mp4",
     clipPath: {

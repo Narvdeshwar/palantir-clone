@@ -10,8 +10,8 @@ function HeroGotham() {
       />
 
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[95%] flex flex-col sm:flex-row justify-between items-center gap-2">
-        <div className="text-white font-100 text-[60px] sm:text-[120px] md:text-[180px] lg:text-[260px] xl:text-[340px] 2xl:text-[400px] w-full leading-none">
-          Gotham
+        <div className="text-white font-thin text-[36px] sm:text-[70px] md:text-[110px] lg:text-[150px] xl:text-[190px] 2xl:text-[230px] w-full leading-none text-center">
+          JSPARK Vision
         </div>
       </div>
     </div>

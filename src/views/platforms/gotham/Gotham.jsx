@@ -1,22 +1,22 @@
-import { gothamChaining } from "@/lib/data/gotham-chaining";
+import { jsparkVisionChaining } from "@/lib/data/gotham-chaining";
 import Designed from "../aip/comp/Designed";
-import GothamSolution from "./comp/GothamSolution";
-import GothamQuote from "./comp/GothamQuote";
+import JSPARKVisionSolution from "./comp/GothamSolution";
+import JSPARKVisionQuote from "./comp/GothamQuote";
 import HeroGotham from "./comp/HeroGotham";
 import HeroSubheader from "./comp/HeroSubheader";
-import AboutGotham from "./comp/AboutGotham.jsx";
+import AboutJSPARKVision from "./comp/AboutGotham.jsx";
 
-function Gotham() {
+function JSPARKVision() {
   return (
     <>
       <HeroGotham />
       <HeroSubheader />
-      <GothamSolution />
-      <Designed data={gothamChaining} theme="dark" />
-      <GothamQuote />
-      <AboutGotham/>
+      <JSPARKVisionSolution />
+      <Designed data={jsparkVisionChaining} theme="dark" />
+      <JSPARKVisionQuote />
+      <AboutJSPARKVision />
     </>
   );
 }
 
-export default Gotham;
+export default JSPARKVision;

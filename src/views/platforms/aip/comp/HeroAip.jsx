@@ -24,7 +24,7 @@ function HeroAip() {
             leading-none
           "
         >
-          AIP
+          OpsUnity
         </div>
 
         {/* Right Section */}

@@ -4,7 +4,7 @@ export default function DevOpsStrategy() {
       <section className="w-full bg-white px-6 lg:px-20 py-24">
         <div className="w-1/2">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light leading-tight mb-10">
-            Your DevOps strategy can make or break your ability to grow →
+            Reliable decisions depend on trusted documentation →
           </h1>
         </div>
 
@@ -24,34 +24,28 @@ export default function DevOpsStrategy() {
           <div className="space-y-14 max-w-xl">
             <div className="space-y-4 border-b pb-10">
               <h3 className="text-lg font-600">
-                Unlock new markets by deploying your software further.
+                Run your intelligence wherever your operations live.
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Multi-cloud, hybrid-cloud, Private SaaS, even airgapped and edge
-                — use the same advanced tooling to deploy and operate all your
-                applications.
+                From data centers to edge locations and secure private networks, OpsMind provides one unified system to operate, automate, and optimize every workflow.
               </p>
             </div>
 
             <div className="space-y-4 border-b pb-10">
               <h3 className="text-lg font-600">
-                Move from manual to fully autonomous deployment — at your own
-                pace.
+                Transition from manual operations to autonomous execution — on your terms.
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                The modern approach to software deployment doesn't require
-                brittle CD pipelines. Encode desired SLAs, environments, and
-                security policies while Apollo keeps everything healthy.
+                Define workflows, SOPs, alerts, and policies, and OpsMind continuously monitors systems, makes decisions, and keeps operations running smoothly.
               </p>
             </div>
 
             <div className="space-y-4">
               <h3 className="text-lg font-600">
-                Fortify your software by making security and compliance default.
+                Make every operational decision secure and accountable.
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Enforce high standards for security, access, and reliability
-                while streamlining collaboration across teams.
+                With role-based access, continuous monitoring, and automated documentation, OpsMind maintains compliance while teams work seamlessly together.
               </p>
             </div>
           </div>
@@ -59,15 +53,14 @@ export default function DevOpsStrategy() {
 
         <div className="flex flex-col justify-center items-center gap-10 mt-20">
           <p className="text-5xl w-3/4 text-center font-400">
-            " We are solving a real hard problem that I am convinced is an
-            existential threat to me as individual, and my company  "
+            " We are solving a real operational challenge by creating an intelligent system that makes processes think, respond, and act automatically "
           </p>
           <p className="text-sm text-gray-500">
             ↳ Mike Younkers, Senior Director of Engineering, Government
             Solutions at Cisco
           </p>
           <button className="border border-black px-8 py-4 text-sm transition bg-black text-white rounded-md hover:bg-white hover:text-black cursor-pointer">
-            Watch the appollo customer Testonomial →
+            Watch the OpsMind customer Testimonial →
           </button>
         </div>
       </section>

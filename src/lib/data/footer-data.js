@@ -13,7 +13,7 @@ const offerings = [
   { id: 8, title: "FedStart", slug: "fedstart" },
   { id: 9, title: "Financial Services", slug: "financial-services" },
   { id: 10, title: "Food & Beverage", slug: "food-and-beverage" },
-  { id: 11, title: "Palantir for Builders", slug: "palantir-for-builders" },
+  { id: 11, title: "Jspark for Builders", slug: "jspark-for-builders" },
   {
     id: 12,
     title: "Govt Financial Management",
@@ -57,7 +57,7 @@ const impactStudies = [
 
 const capabilities = [
   { id: 1, title: "AI + ML", slug: "ai-and-ml" },
-  { id: 2, title: "AIP for Developers", slug: "aip-for-developers" },
+  { id: 2, title: "OpsUnity for Developers", slug: "aip-for-developers" },
   { id: 3, title: "Data Integration", slug: "data-integration" },
   { id: 4, title: "Digital Twin", slug: "digital-twin" },
   { id: 5, title: "Dynamic Scheduling", slug: "dynamic-scheduling" },
@@ -75,7 +75,7 @@ const capabilities = [
 const documents = [
   { id: 1, title: "Developer Community", slug: "developer-community" },
   { id: 2, title: "Platform Documentation", slug: "platform-documentation" },
-  { id: 3, title: "Palantir Developers", slug: "palantir-developers" },
+  { id: 3, title: "Jspark Developers", slug: "jspark-developers" },
   { id: 4, title: "Trust Center", slug: "trust-center" },
   {
     id: 5,
@@ -88,7 +88,7 @@ const documents = [
     title: "Privacy and Civil Liberties",
     slug: "privacy-and-civil-liberties",
   },
-  { id: 8, title: "Palantir Explained", slug: "palantir-explained" },
+  { id: 8, title: "Jspark Explained", slug: "jspark-explained" },
   { id: 9, title: "Sustainability", slug: "sustainability" },
   { id: 10, title: "Human Rights Policy", slug: "human-rights-policy" },
   { id: 11, title: "Privacy Statement", slug: "privacy-statement" },
@@ -119,12 +119,12 @@ const socialPlatform = [
   {
     id: 1,
     name: "Youtube",
-    link: "https://www.youtube.com/",
+    link: "https://www.youtube.com/@jsparkai",
   },
   {
     id: 2,
     name: "Linkedin",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/jsparkai/",
   },
   {
     id: 3,
@@ -149,5 +149,5 @@ export default {
   impactStudies,
   offerings,
   country,
-  socialPlatform, 
+  socialPlatform,
 };

@@ -13,6 +13,6 @@ export const sections = [
   },
   {
     title: "Copyright ©2024",
-    subtitle: "Palantir Technologies Inc.",
+    subtitle: "Jspark Technologies Inc.",
   },
 ];

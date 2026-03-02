@@ -4,8 +4,6 @@ import {
   DEVCON,
   INTEROPER,
   MAVEN,
-  TITAN,
-  VANTAGE,
   WARP,
   INTELLIGENT,
 } from "../../assets/images";
@@ -13,60 +11,47 @@ import {
 export const carouselData = [
   {
     id: 1,
-    title: "Defence Reformation",
+    title: "Namchi Smart City -Sikkim",
     src: DEFENCE,
-    description: "Resurrecting the American Industrial Base.",
+    description: "Building Cleaner, Faster, and Smarter Municipal Services.",
   },
   {
     id: 2,
-    title: "Warp Speed",
+    title: "Munich Electrification-Germany",
     src: WARP,
-    description: "The Manufacturing OS for American Re-Industrialization.",
+    description: "Connecting Machines, Monitoring Health, Preventing Downtime.",
   },
   {
     id: 3,
-    title: "Working Intelligence",
+    title: "Schnider Electric",
     src: INTELLIGENT,
-    description: "The AI Optimism Project.",
+    description: "Where Urban Data Becomes Action.",
   },
   {
     id: 4,
-    title: "DevCon 3",
+    title: "Vision BI for UP112",
     src: DEVCON,
     description:
-      "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + Al Teams",
+      "Human + AI Intelligence Powering Statewide Emergency Response."
   },
   {
     id: 5,
-    title: "AIPCon 8",
+    title: "Karnataka Muncipal Data Society",
     src: AIPCON,
     description:
-      "How Foundry and AIP Help Companies Win: 70+ Speakers Including BP, Novartis, and American Airlines.",
+      "Bringing Multi-City Governance onto a Single Intelligent Dashboard.",
   },
   {
     id: 6,
-    title: "Interoperability",
+    title: "YITI Sustainable City",
     src: INTEROPER,
     description:
-      "Activate AI. With any storage. Any compute. Any model. Anywhere.",
+      "Measure Everything. Waste Less. Operate Smarter.",
   },
   {
     id: 7,
-    title: "Maven Smart System",
+    title: "Tech spire + C2C system",
     src: MAVEN,
-    description: "AI is transforming the modern battlefield.",
-  },
-  {
-    id: 8,
-    title: "TITAN",
-    src: TITAN,
-    description: "Deploying the U.S. Army’s first AI-defined vehicle.",
-  },
-  {
-    id: 9,
-    title: "Vantage",
-    src: VANTAGE,
-    description:
-      "Supporting Army Data Platform Strategy and Joint Multi-Domain Operations",
+    description: "Operational Intelligence for Defense, Safety, and Cities.",
   },
 ];

@@ -49,7 +49,7 @@ function HeroSubheader({ onOpen }) {
       <div className="flex flex-col justify-between h-full w-full md:w-[90%] mx-auto p-4">
         {/* TOP SECTION */}
         <div className="flex justify-between w-full pt-10 sm:mt-20">
-          {["Software", "AIP", "Get Started"].map((text, i) => (
+          {["Software", "OpsUnity", "Get Started"].map((text, i) => (
             <button
               key={i}
               onClick={text === "Get Started" ? onOpen : undefined}

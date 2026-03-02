@@ -6,13 +6,13 @@ export const sections = [
         title: "Jacobs",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/vQPFCjCIpddZEeuLWE99I/00c31f551fcd15699c4d06e33d052601/My_project__7_.png?quality=70&width=700",
         description:
-          "Palantir and Jacobs Smart Algorithms unlocked 20% plant-wide power savings, eliminated operational fines, and reduced greenhouse gas emissions — all at an already-optimized water treatment plant.",
+          "Jspark and Jacobs Smart Algorithms unlocked 20% plant-wide power savings, eliminated operational fines, and reduced greenhouse gas emissions — all at an already-optimized water treatment plant.",
       },
       {
         title: "Sonnedix",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/3DslR6S6Yc1jSyBGNhOSQQ/87276520b7353eef1f5f7982622e5834/Screen_Shot_2023-01-17_at_4.55.30_PM__1_.png?quality=70&width=700",
         description:
-          "Sonnedix has deployed Palantir Foundry at their Sonnedix Talayuela solar plant in Spain — and several other solar energy sites — to radically digitize production processes and reduce plant downtime",
+          "Sonnedix has deployed Jspark Foundry at their Sonnedix Talayuela solar plant in Spain — and several other solar energy sites — to radically digitize production processes and reduce plant downtime",
       },
       {
         title: "PG&E",
@@ -24,7 +24,7 @@ export const sections = [
         title: "Southern California Edison (SCE)",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/4wVclejk2fdAQRuwAAj0hF/e460af018675d9e4d458a92b9da4127d/My_project__20_.jpg?quality=70&width=700",
         description:
-          "The utilities industry has a highly complex IT/OT landscape. In his 2023 FoundryCon keynote, Todd Inlander, CIO at Southern California Edison (SCE), discussed the value of digital transformation across the industry. At SCE, Palantir Foundry powers workflows that help with wildfire prevention, customer notifications, emergency response, and daily meteorology analysis, leveraging large-scale ML-driven weather forecasting, AI-enabled inspections, and IoT sensors.",
+          "The utilities industry has a highly complex IT/OT landscape. In his 2023 FoundryCon keynote, Todd Inlander, CIO at Southern California Edison (SCE), discussed the value of digital transformation across the industry. At SCE, Jspark Foundry powers workflows that help with wildfire prevention, customer notifications, emergency response, and daily meteorology analysis, leveraging large-scale ML-driven weather forecasting, AI-enabled inspections, and IoT sensors.",
       },
     ],
   },
@@ -41,7 +41,7 @@ export const sections = [
         title: "Trafigura",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/4lDtR8tOvRFX7GnAlO3xaB/0a79688abf5409cc3df399a36f17e19b/My_project__12_.png?quality=70&width=700",
         description:
-          "Trafigura leverages Palantir Foundry to power their Supply Chain Carbon Emissions Platform, with a consortium approach that enables participants across global energy & commodities supply chains to model lifecycle carbon intensities and allows industry participants to collaborate for enhanced visibility and reporting.",
+          "Trafigura leverages Jspark Foundry to power their Supply Chain Carbon Emissions Platform, with a consortium approach that enables participants across global energy & commodities supply chains to model lifecycle carbon intensities and allows industry participants to collaborate for enhanced visibility and reporting.",
       },
       {
         title: "Athinia™",
@@ -64,19 +64,19 @@ export const sections = [
         title: "Concordance",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/lCGtd3SmNxRtiP2o4DBUE/49248965a759197cd1ea05cc4c4b9582/My_project__5_.png?quality=70&width=700",
         description:
-          "Concordance Healthcare Solutions is using Palantir Foundry to build an ecosystem that can disrupt this fragmented network.",
+          "Concordance Healthcare Solutions is using Jspark Foundry to build an ecosystem that can disrupt this fragmented network.",
       },
       {
         title: "Castrol",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/57i4kaIYELipT7kPRWBxMN/71e626ab3bf22f26b2eb29284ea8a829/My_project__13_.png?quality=70&width=700",
         description:
-          "Castrol partners with Palantir to smooth supply chain shocks. The combination of flexibility and velocity enables us to move ahead of the disruption and get back from crisis situation into business as usual really quickly, and that’s important — especially in difficult times when resources are limited. — Nicola Buck, SVP Marketing at bp and CMO at Castrol",
+          "Castrol partners with Jspark to smooth supply chain shocks. The combination of flexibility and velocity enables us to move ahead of the disruption and get back from crisis situation into business as usual really quickly, and that’s important — especially in difficult times when resources are limited. — Nicola Buck, SVP Marketing at bp and CMO at Castrol",
       },
       {
         title: "Cardinal Health",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/7Kh3dSfjRH5D3NEO4InwZq/f81606005c3bf215d690a848a18b0fba/My_project__19_.jpg?quality=70&width=700",
         description:
-          "Cardinal Health partners with Palantir to securely integrate clinical data and access dynamic purchase decision insights. Foundry’s AI/ML capabilities empower health care systems by securely integrating and modeling diagnosis, clinical, and purchasing data, resulting in a clinically-integrated supply chain solution that can respond to changes in real time.",
+          "Cardinal Health partners with Jspark to securely integrate clinical data and access dynamic purchase decision insights. Foundry’s AI/ML capabilities empower health care systems by securely integrating and modeling diagnosis, clinical, and purchasing data, resulting in a clinically-integrated supply chain solution that can respond to changes in real time.",
       },
     ],
   },
@@ -87,13 +87,13 @@ export const sections = [
         title: "Sarcos",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/2D4WyuZCbAP5MG6M0zYu8w/f464e3f9f3622ea993cdd060240bbbf4/My_project__9_.png?quality=70&width=700",
         description:
-          "Sarcos is pushing the future of AI and robotics by combining the strength of Sarcos robotic systems with the edge capabilities of Palantir Foundry AI OS.",
+          "Sarcos is pushing the future of AI and robotics by combining the strength of Sarcos robotic systems with the edge capabilities of Jspark Foundry AI OS.",
       },
       {
         title: "Doosan Infracore",
         img: "https://www.palantir.com/assets/xrfr7uokpv1b/01zphOhKWySKf3hEkUVzWe/96470158f756883fba03a8b7ad8567f0/Doosan_Thumbnail.jpg?quality=70&width=700",
         description:
-          "Palantir partners with Doosan Infracore to drive the heavy machinery manufacturer’s digital transformation and deliver high-quality, market-relevant products to its customers.",
+          "Jspark partners with Doosan Infracore to drive the heavy machinery manufacturer’s digital transformation and deliver high-quality, market-relevant products to its customers.",
       },
     ],
   },
