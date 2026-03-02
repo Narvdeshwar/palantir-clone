@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDownLeft, ArrowLeft, ArrowRight } from "lucide-react";
 import { carouselData } from "../../../lib/data/carousel-data";
+import Button from "../../../components/Button";
 
 function Carousel() {
   const ref = useRef(null);
@@ -35,7 +36,7 @@ function Carousel() {
   return (
     <section
       ref={ref}
-      className="relative min-h-fit md:min-h-[130vh] bg-[#EFEFEF]/80 overflow-hidden flex flex-col items-center justify-start pt-12 shadow border-b-10 border-b-[#EFEFEF]"
+      className="relative min-h-fit md:min-h-[130vh] bg-bg-app overflow-hidden flex flex-col items-center justify-start pt-16 border-b border-border shadow-inner"
     >
 
       <motion.div
@@ -45,10 +46,11 @@ function Carousel() {
         {carouselData.map((item, index) => {
           const isActive = index === activeIndex;
           return (
-            <button
+            <Button
               key={item.id}
               onClick={() => handleButtonClick(index)}
-              className={`relative overflow-hidden px-4 py-2 rounded-sm shadow-md text-[18px] font-medium transition-all duration-300 cursor-pointer border border-gray-200 hover:border-gray-400 ${isActive ? "text-black" : "text-gray-500"
+              variant={isActive ? "primary" : "secondary"}
+              className={`px-8 py-3 !rounded-full transition-all group ${isActive ? "shadow-lg shadow-jspark-primary/20" : ""
                 }`}
             >
               {isActive && (
@@ -57,53 +59,60 @@ function Carousel() {
                   initial={{ width: "0%" }}
                   animate={{ width: "100%" }}
                   transition={{ duration: 5, ease: "linear" }}
-                  className="absolute left-0 top-0 h-full bg-gray-300 z-0 rounded-sm"
+                  className="absolute left-0 top-0 h-full bg-white/10 z-0"
                 />
               )}
-              <span className="relative z-10">{item.title}</span>
-            </button>
+              <span className="relative z-10 uppercase tracking-widest text-[13px] font-bold">
+                {item.title}
+              </span>
+            </Button>
           );
         })}
       </motion.div>
 
-      <div className="hidden md:block absolute inset-0 z-50 mt-56 w-[98%] mx-auto h-[90vh] rounded-md overflow-hidden mb-20">
+      <div className="hidden md:block absolute inset-0 z-50 mt-64 w-[96%] mx-auto h-[85vh] rounded-3xl overflow-hidden mb-20 shadow-2xl border border-border">
         {carouselData.map((item, index) => {
           const isActive = index === activeIndex;
 
           return (
             <motion.div
               key={item.id}
-              initial={{ opacity: 0, scale: 1.02 }}
+              initial={{ opacity: 0, scale: 1.05 }}
               animate={{
                 opacity: isActive ? 1 : 0,
-                scale: isActive ? 1 : 1.02,
+                scale: isActive ? 1 : 1.05,
               }}
-              transition={{ duration: 1.2, ease: "easeInOut" }}
+              transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
               className="absolute inset-0"
             >
               <img
                 src={item.src}
                 alt={item.title}
-                className="w-full h-full object-cover object-center rounded-md"
+                className="w-full h-full object-cover object-center"
               />
 
               {isActive && (
                 <motion.div
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, ease: "easeOut" }}
-                  className="absolute top-5 left-5 bg-black/50 backdrop-blur-md text-white p-5 rounded-lg max-w-xl border border-white/10"
+                  initial={{ opacity: 0, x: -30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.8, delay: 0.3 }}
+                  className="absolute bottom-10 left-10 bg-structure text-white p-8 rounded-2xl max-w-2xl border border-white/10 shadow-2xl"
                 >
-                  <p className="text-[24px] uppercase text-gray-300 mb-1">
+                  <p className="text-xs font-bold uppercase tracking-[0.3em] text-jspark-primary mb-3">
                     {item.earmark || item.title}
                   </p>
 
                   <a
                     href={item.link || "#"}
-                    className="inline-flex items-center text-white text-[22px] font-medium hover:text-gray-300 transition-all"
+                    className="group block"
                   >
-                    {item.description}
-                    <ArrowDownLeft className="rotate-180 w-5 h-5 ml-1" />
+                    <h2 className="text-4xl font-bold leading-tight mb-4 group-hover:text-jspark-primary transition-colors">
+                      {item.description}
+                    </h2>
+                    <div className="flex items-center gap-2 text-sm font-semibold text-white/60 group-hover:text-white transition-all">
+                      <span>Explore Capability</span>
+                      <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                    </div>
                   </a>
                 </motion.div>
               )}
@@ -112,62 +121,58 @@ function Carousel() {
         })}
 
         {/* DESKTOP CONTROLS */}
-        <div className="absolute inset-0 flex justify-between items-center px-6 z-60">
-          <button
+        <div className="absolute bottom-12 right-12 flex gap-4 z-60">
+          <Button
+            size="icon"
+            variant="secondary"
             onClick={handlePrev}
-            className="bg-black/40 hover:bg-black/70 text-white p-3 rounded-full backdrop-blur-md"
+            className="w-16 h-16 rounded-full !bg-white/5 hover:!bg-white/10 border-white/10"
           >
             <ArrowLeft className="w-6 h-6" />
-          </button>
+          </Button>
 
-          <button
+          <Button
+            size="icon"
+            variant="secondary"
             onClick={handleNext}
-            className="bg-black/40 hover:bg-black/70 hover:scale-110 text-white p-3 rounded-full backdrop-blur-md"
+            className="w-16 h-16 rounded-full !bg-white/5 hover:!bg-white/10 border-white/10"
           >
             <ArrowRight className="w-6 h-6" />
-          </button>
+          </Button>
         </div>
       </div>
 
-      {/* DESKTOP OVERLAY */}
-      <div className="hidden md:block absolute inset-0 z-40 bg-[#EFEFEF]/10 rounded-md" />
+      {/* DESKTOP OVERLAY GRADIENT */}
+      <div className="hidden md:block absolute inset-0 z-40 bg-gradient-to-b from-bg-app via-transparent to-bg-app opacity-60 pointer-events-none" />
 
-      <div className="md:hidden w-full px-3 mt-12 flex flex-col items-center z-10">
+      <div className="md:hidden w-full px-4 mt-12 flex flex-col items-center z-10">
 
         {/* Title */}
-        <h2 className="text-xl font-semibold text-gray-800 mb-3 text-center">
+        <h2 className="text-page-title mb-4 text-center">
           {carouselData[activeIndex].title}
         </h2>
 
         {/* Mobile image + tap zones */}
-        <div className="relative w-full h-[350px] rounded-md overflow-hidden shadow-md">
+        <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-2xl border border-border">
           <img
             src={carouselData[activeIndex].src}
             alt={carouselData[activeIndex].title}
             className="w-full h-full object-cover object-center"
           />
 
-          {/* LEFT TAP ZONE */}
-          <div
-            onClick={handlePrev}
-            className="absolute left-0 top-0 h-full w-1/2 z-20 md:hidden"
-          />
-
-          {/* RIGHT TAP ZONE */}
-          <div
-            onClick={handleNext}
-            className="absolute right-0 top-0 h-full w-1/2 z-20 md:hidden"
-          />
+          {/* TAP ZONES */}
+          <div onClick={handlePrev} className="absolute left-0 top-0 h-full w-1/3 z-20" />
+          <div onClick={handleNext} className="absolute right-0 top-0 h-full w-2/3 z-20" />
         </div>
 
         {/* Description */}
-        <div className="mt-6 bg-black/60 text-white p-4 rounded-lg backdrop-blur-md w-full">
-          <p className="text-[18px] uppercase text-gray-300 mb-1">
+        <div className="mt-6 bg-structure p-6 rounded-2xl shadow-xl border border-white/5 w-full">
+          <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-jspark-primary mb-2">
             {carouselData[activeIndex].earmark ||
               carouselData[activeIndex].title}
           </p>
 
-          <p className="text-[16px] leading-snug">
+          <p className="text-white text-base leading-relaxed font-medium">
             {carouselData[activeIndex].description}
           </p>
         </div>

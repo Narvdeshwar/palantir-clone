@@ -8,7 +8,7 @@ const Button = ({
 }) => {
   // Base styles for all buttons
   const baseStyles =
-    "cursor-pointer inline-flex items-center justify-center transition-all duration-200";
+    "cursor-pointer inline-flex items-center justify-center transition-all duration-300 relative overflow-hidden";
 
   // Style variants mapping to index.css component classes
   const variants = {

@@ -24,7 +24,7 @@ function PlatformInfo() {
   return (
     <section
       ref={ref}
-      className="h-screen flex items-center justify-center overflow-hidden"
+      className="h-screen flex items-center justify-center overflow-hidden bg-bg-app"
     >
       <motion.p
         style={{
@@ -34,7 +34,7 @@ function PlatformInfo() {
           lineHeight: 1.08,
           transition: "all 0.5s ease-out",
         }}
-        className="text-[clamp(22px,5vw,62px)] text-black text-center font-600 px-6 platform-info"
+        className="text-[clamp(28px,6vw,72px)] text-text-primary text-center font-bold px-8 platform-info max-w-7xl tracking-tighter"
       >
         JSPARK AI is building India’s sovereign AI Operating System that enables
         predictive intelligence, autonomous command, and real-time coordination
