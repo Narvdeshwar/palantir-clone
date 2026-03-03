@@ -1,6 +1,6 @@
 import VideoContainer from "@/components/VideoContainer";
 
-function HeroGotham() {
+function HeroJSPARKVision() {
   return (
     <div className="relative flex items-center justify-center overflow-hidden">
       <VideoContainer
@@ -18,4 +18,4 @@ function HeroGotham() {
   );
 }
 
-export default HeroGotham;
+export default HeroJSPARKVision;

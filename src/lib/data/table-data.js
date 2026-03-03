@@ -13,7 +13,7 @@ const steps = [
     title: "AI dashboards that let police & govt officers ask questions in plain language and see real-time crime, performance & risk insights.",
     description: "JSPARK Vision",
     src: V6,
-    slug: "/platforms/gotham",
+    slug: "/platforms/jspark-vision",
   },
   {
     id: "0.3",

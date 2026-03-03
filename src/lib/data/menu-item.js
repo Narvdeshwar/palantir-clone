@@ -7,10 +7,10 @@ export const menuItem = [
     id: "2",
     title: "Our Platforms",
     submenu: [
-      { id: "2-1", title: "OpsUnity" },
-      { id: "2-2", title: "Prime EAM" },
-      { id: "2-3", title: "JSPARK Vision" },
-      { id: "2-4", title: "OpsMind" },
+      { id: "2-1", title: "OpsUnity", slug: "/platforms/opsunity" },
+      { id: "2-2", title: "Prime EAM", slug: "/platforms/foundary" },
+      { id: "2-3", title: "JSPARK Vision", slug: "/platforms/jspark-vision" },
+      { id: "2-4", title: "OpsMind", slug: "/platforms/appollo" },
     ],
   },
   {

@@ -73,7 +73,10 @@ function Menu() {
                   <ul className="ml-1 mt-2 flex flex-col gap-5 text-gray-400">
                     {item.submenu.map((sub, j) => (
                       <FadeUp key={sub.id} delay={0.2 + i * 0.12 + j * 0.08}>
-                        <li className="cursor-pointer hover:text-gray-300 flex gap-2 text-2xl">
+                        <li
+                          className="cursor-pointer hover:text-gray-300 flex gap-2 text-2xl"
+                          onClick={() => sub.slug && goTo(sub.slug)}
+                        >
                           <CornerDownRight />
                           {sub.title}
                         </li>
