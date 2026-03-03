@@ -33,7 +33,7 @@ const awards = [
 export default function AwardsSection() {
   return (
     <>
-      <section className="w-full px-6 lg:px-20 py-16">
+      <section className="w-full px-6 lg:px-20 py-16 text-white">
         {/* Header */}
         <div className="mb-14 flex items-center gap-3">
           <h2 className="text-5xl md:text-8xl font-light">Awards</h2>
@@ -47,17 +47,17 @@ export default function AwardsSection() {
               <h3 className="text-3xl font-400 leading-snug">{item.title}</h3>
 
               {item.description && (
-                <p className="text-gray-600 text-xl leading-relaxed">
+                <p className="text-gray-400 text-xl leading-relaxed">
                   {item.description}
                 </p>
               )}
 
-              <p className="text-gray-800 font-medium">{item.source}</p>
+              <p className="text-gray-300 font-medium">{item.source}</p>
 
               {item.linkText && (
                 <a
                   href={item.linkUrl}
-                  className="inline-block text-sm text-black underline underline-offset-4 hover:opacity-60 transition"
+                  className="inline-block text-sm text-white underline underline-offset-4 hover:opacity-60 transition"
                 >
                   ↳ {item.linkText}
                 </a>
@@ -66,7 +66,7 @@ export default function AwardsSection() {
           ))}
         </div>
       </section>
-      <hr className="w-[95%] mx-auto" />
+      <hr className="w-[95%] mx-auto opacity-10" />
     </>
   );
 }

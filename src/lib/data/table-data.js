@@ -21,7 +21,7 @@ const steps = [
       "AI system that predicts failure of assets, energy systems, vehicles, and manpower before breakdown happens.",
     description: "Prime EAM",
     src: V7,
-    slug: "/platforms/foundary",
+    slug: "/platforms/prime-eam",
   },
   {
     id: "0.4",

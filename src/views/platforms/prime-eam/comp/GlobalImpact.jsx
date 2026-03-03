@@ -3,11 +3,11 @@ import { sections } from "@/lib/data/section-global";
 const GlobalImpact = () => {
   return (
     <>
-      <div className=" text-gray-900 py-16 px-4 sm:px-6 lg:px-8 font-sans">
+      <div className=" text-white py-16 px-4 sm:px-6 lg:px-8 font-sans">
         <div className="w-[95%] mx-auto">
           {/* Main Heading */}
           <div className="mb-20">
-            <h1 className="text-4xl md:text-8xl font-normal tracking-tight text-gray-900">
+            <h1 className="text-4xl md:text-8xl font-normal tracking-tight text-white">
               One Platform. Global Impact.
             </h1>
           </div>
@@ -17,11 +17,11 @@ const GlobalImpact = () => {
             {sections.map((section, index) => (
               <div
                 key={index}
-                className="flex flex-col lg:flex-row gap-8 lg:gap-16 border-t border-transparent pt-4"
+                className="flex flex-col lg:flex-row gap-8 lg:gap-16 border-t border-white/10 pt-4"
               >
                 {/* Left Column: Category Title */}
                 <div className="w-full lg:w-1/4 shrink-0">
-                  <h2 className="text-4xl font-medium text-gray-900 sticky top-20">
+                  <h2 className="text-4xl font-medium text-white sticky top-20">
                     {section.category}
                   </h2>
                 </div>
@@ -34,11 +34,11 @@ const GlobalImpact = () => {
                         key={cardIndex}
                         className="group flex flex-col items-start cursor-pointer"
                       >
-                        <p className="text-[12px] text-gray-800 leading-tight mb-3 font-900">
+                        <p className="text-[12px] text-gray-300 leading-tight mb-3 font-900">
                           {card.title}
                         </p>
                         {/* Card Image */}
-                        <div className="w-full aspect-4/3 overflow-hidden bg-gray-100 mb-4 rounded-md">
+                        <div className="w-full aspect-4/3 overflow-hidden bg-white/5 mb-4 rounded-md">
                           <img
                             src={card.img}
                             alt={card.title}
@@ -51,7 +51,7 @@ const GlobalImpact = () => {
                           {/* Use this if you have specific small tags like in the image */}
                           {/* <span className="text-[10px] uppercase tracking-wider text-gray-400 font-bold">Case Study</span> */}
 
-                          <p className="text-sm text-black leading-relaxed">
+                          <p className="text-sm text-gray-400 leading-relaxed">
                             {card.description}
                           </p>
                         </div>
@@ -64,7 +64,7 @@ const GlobalImpact = () => {
           </div>
         </div>
       </div>
-       <hr className="w-[95%] mx-auto" />
+      <hr className="w-[95%] mx-auto opacity-10" />
     </>
   );
 };

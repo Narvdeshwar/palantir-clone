@@ -2,24 +2,24 @@ import Footer from "../../../Layout/Footer";
 import AwardsSection from "./comp/AwardSection";
 import GetStartedOntology from "./comp/GetStartedOntology";
 import GlobalImpact from "./comp/GlobalImpact";
-import JsparkFoundry from "./comp/HeroSection";
+import HeroPrimeEAM from "./comp/HeroPrimeEAM";
 import Ontalogy from "./comp/Ontalogy";
 import OntologyOperations from "./comp/OntologyOperation";
 import OntologySection from "./comp/RealTimeColl";
 
-function Foundary() {
+function PrimeEAM() {
   return (
-    <>
-      <JsparkFoundry />
+    <div className="bg-bg-app text-text-primary min-h-screen">
+      <HeroPrimeEAM />
       <Ontalogy />
       <OntologySection />
       <OntologyOperations />
       <GlobalImpact />
       <AwardsSection />
       <GetStartedOntology />
-      <Footer />
-    </>
+      <Footer theme="dark" />
+    </div>
   );
 }
 
-export default Foundary;
+export default PrimeEAM;

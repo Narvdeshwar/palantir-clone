@@ -3,7 +3,7 @@ import { features } from "@/lib/data/realtime";
 const OntologySection = () => {
   return (
     <>
-      <section className="w-[90%] mx-auto px-6 py-16 text-slate-900 font-sans">
+      <section className="w-[90%] mx-auto px-6 py-16 text-white font-sans">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div>
             <h2 className="text-5xl leading-16">
@@ -11,7 +11,7 @@ const OntologySection = () => {
             </h2>
           </div>
           <div>
-            <p className="text-xl md:text-3xl text-slate-800 leading-relaxed">
+            <p className="text-xl md:text-3xl text-gray-300 leading-relaxed">
               Operate faster with unified asset and maintenance workflows across your infrastructure.
             </p>
           </div>
@@ -26,12 +26,12 @@ const OntologySection = () => {
             {features.map((item, index) => (
               <div
                 key={index}
-                className="border-t border-slate-200 py-8 first:border-t-0 lg:first:border-t"
+                className="border-t border-white/10 py-8 first:border-t-0 lg:first:border-t"
               >
-                <h3 className="text-lg font-bold text-slate-900 mb-3">
+                <h3 className="text-lg font-bold text-white mb-3">
                   {item.title}
                 </h3>
-                <p className="text-slate-600 leading-relaxed text-sm md:text-base">
+                <p className="text-gray-400 leading-relaxed text-sm md:text-base">
                   {item.description}
                 </p>
               </div>
@@ -39,7 +39,7 @@ const OntologySection = () => {
           </div>
         </div>
       </section>
-      <hr className="w-[95%] mx-auto" />
+      <hr className="w-[95%] mx-auto opacity-10" />
     </>
   );
 };

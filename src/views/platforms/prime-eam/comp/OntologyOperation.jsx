@@ -14,11 +14,11 @@ const offerings = [
 const OntologyOperations = () => {
   return (
     <>
-      <section className=" py-16 px-6 md:px-12 lg:px-4">
+      <section className=" py-16 px-6 md:px-12 lg:px-4 text-white">
         <div className="w-[98%] mx-auto flex flex-col lg:flex-row gap-3 lg:gap-3">
           {/* Left Column: Heading */}
           <div className="w-1/2">
-            <h2 className="text-4xl md:text-6xl font-serif font-normal leading-[1.1] text-gray-900 tracking-tight">
+            <h2 className="text-4xl md:text-6xl font-serif font-normal leading-[1.1] text-white tracking-tight">
               OpsSharthi-powered Operations Across Industries
             </h2>
           </div>
@@ -26,7 +26,7 @@ const OntologyOperations = () => {
           {/* Right Column: Content & Links */}
           <div className="w-full lg:w-1/2">
             {/* Description Text */}
-            <div className="space-y-6 text-xl text-gray-500 mb-16 font-sans">
+            <div className="space-y-6 text-xl text-gray-400 mb-16 font-sans">
               <p>
                 For more than a decade, we’ve embedded alongside our customers
                 to build Prime EAM backwards, starting from the most critical
@@ -45,7 +45,7 @@ const OntologyOperations = () => {
                 <a
                   key={index}
                   href={item.href}
-                  className="group flex items-center justify-between border-b border-gray-400 py-4 text-lg text-gray-800 hover:text-gray-600 transition-colors duration-200"
+                  className="group flex items-center justify-between border-b border-white/10 py-4 text-lg text-gray-300 hover:text-white transition-colors duration-200"
                 >
                   <span>{item.label}</span>
                   <span className="transform transition-transform duration-200 group-hover:translate-x-1">
@@ -69,7 +69,7 @@ const OntologyOperations = () => {
           </div>
         </div>
       </section>
-      <hr className="w-[95%] mx-auto" />
+      <hr className="w-[95%] mx-auto opacity-10" />
     </>
   );
 };

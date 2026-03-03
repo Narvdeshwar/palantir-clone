@@ -8,8 +8,8 @@ const Menu = React.lazy(() => import("../components/menu/Menu"));
 const OpsUnity = React.lazy(() => import("../views/platforms/opsunity/OpsUnity"));
 const JSPARKVision = React.lazy(() => import("../views/platforms/jspark-vision/JSPARKVision"));
 const GetStarted = React.lazy(() => import("../views/get-started/GetStarted"));
-const Foundary = React.lazy(() =>
-  import("../views/platforms/foundary/Foundary")
+const PrimeEAM = React.lazy(() =>
+  import("../views/platforms/prime-eam/PrimeEAM")
 );
 const Ontalogy = React.lazy(() =>
   import("../views/platforms/ontology/Ontology")
@@ -58,10 +58,10 @@ export const appRoutes = [
     ),
   },
   {
-    path: "/platforms/foundary",
+    path: "/platforms/prime-eam",
     element: (
       <PageTransition>
-        <Foundary />
+        <PrimeEAM />
       </PageTransition>
     ),
   },

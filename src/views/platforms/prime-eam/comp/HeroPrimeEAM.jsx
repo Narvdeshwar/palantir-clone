@@ -1,18 +1,18 @@
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
-import { foundaryMenus } from "../../../../lib/data/foundary-data";
+import { foundaryMenus } from "../../../../lib/data/prime-eam-data";
 
-const JsparkFoundry = () => {
+const HeroPrimeEAM = () => {
   const [activeMenu, setActiveMenu] = useState(null);
 
   return (
-    <section className="w-full text-gray-900 relative">
+    <section className="w-full text-text-primary relative">
       {/* Navbar */}
       <div className="flex w-[80%] justify-around mt-30">
         {foundaryMenus.map((item, index) => (
           <div
             key={index}
-            className="cursor-pointer text-xl hover:text-blue-600"
+            className="cursor-pointer text-xl hover:text-jspark-primary"
             onClick={() => setActiveMenu(activeMenu === index ? null : index)}
           >
             {item.title}
@@ -23,9 +23,10 @@ const JsparkFoundry = () => {
                 className="
             absolute left-8
             mt-4 w-[96%]
-            text-white 
-            p-10 shadow-xl grid grid-cols-4 gap-10 
+            text-white
+            p-10 shadow-xl grid grid-cols-4 gap-10
             z-50 rounded-xl
+            bg-bg-app border border-white/10
           "
               >
                 {item.subMenu.map((col, idx) => (
@@ -38,7 +39,7 @@ const JsparkFoundry = () => {
                         <div
                           key={i}
                           className="
-                      cursor-pointer text-lg border-b 
+                      cursor-pointer text-lg border-b
                       border-gray-700 pb-1 hover:text-blue-400
                     "
                         >
@@ -57,6 +58,7 @@ const JsparkFoundry = () => {
       w-[96vw]
       text-white p-12 shadow-xl
       z-50 rounded-xl grid grid-cols-2 gap-10
+      bg-bg-app border border-white/10
     "
                 onClick={(e) => e.stopPropagation()}
               >
@@ -94,6 +96,7 @@ const JsparkFoundry = () => {
       w-[96vw]
       text-white p-12 shadow-xl
       z-50 rounded-xl grid grid-cols-2 gap-10
+      bg-bg-app border border-white/10
     "
                 onClick={(e) => e.stopPropagation()}
               >
@@ -130,16 +133,16 @@ const JsparkFoundry = () => {
 
       {/* HEADER */}
       <div className="mx-auto flex justify-between mt-10 mb-10 w-[96%]">
-        <h1 className="text-7xl font-400">Jspark Prime EAM</h1>
-        <p className="text-xl mt-3 font-light max-w-xl">
+        <h1 className="text-7xl font-400 text-white">Jspark Prime EAM</h1>
+        <p className="text-xl mt-3 font-light max-w-xl text-white/80">
           The OpsSharthi-Powered Operating System for the Modern Enterprise
         </p>
       </div>
 
       {/* VIDEO SECTION */}
-      <div className="w-full border-gray-200">
+      <div className="w-full border-white/10">
         <div className="w-[95%] mx-auto">
-          <div className="rounded-xl overflow-hidden shadow-md border border-gray-300">
+          <div className="rounded-xl overflow-hidden shadow-md border border-white/10">
             <video
               src="https://www.palantir.com/assets/xrfr7uokpv1b/6wPXo22rIy9sWfuTM9ALSe/6c00236051d5e314adb17d399ad502c0/Hydrate_Ontology_General_V3.mp4"
               autoPlay
@@ -150,25 +153,25 @@ const JsparkFoundry = () => {
             />
           </div>
 
-          <div className="flex mt-20 mb-10">
+          <div className="flex mt-20 mb-10 text-white">
             <div className="w-1/2"></div>
             <div className="w-1/2 flex justify-around">
               <div className="relative w-fit flex items-center gap-1 group cursor-pointer hover:text-gray-400">
                 Get Started with the OpsSharthi <ArrowRight />
-                <span className="absolute bottom-0 right-0 h-px w-full bg-black group-hover:w-0 transition-all duration-500"></span>
+                <span className="absolute bottom-0 right-0 h-px w-full bg-white group-hover:w-0 transition-all duration-500"></span>
               </div>
               <div className="relative w-fit flex items-center gap-1 group cursor-pointer hover:text-gray-400">
                 Download Jspark Overview <ArrowRight />
-                <span className="absolute bottom-0 right-0 h-px w-full bg-black group-hover:w-0 transition-all duration-500"></span>
+                <span className="absolute bottom-0 right-0 h-px w-full bg-white group-hover:w-0 transition-all duration-500"></span>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <hr className="w-[95%] mx-auto" />
+      <hr className="w-[95%] mx-auto opacity-10" />
     </section>
   );
 };
 
-export default JsparkFoundry;
+export default HeroPrimeEAM;

@@ -45,7 +45,7 @@ export default function GetStarted({ onClose }) {
             <div className="p-3">
               <form action="">
                 {formFields.map((item) => (
-                  <FormFields labelName={item.labelName} type={item.type} />
+                  <FormFields labelName={item.labelName} type={item.type} theme="dark" />
                 ))}
                 <div className="w-1/2">
                   <Button variant="primary" size="md" className="m-3 w-full">
