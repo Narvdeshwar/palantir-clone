@@ -57,7 +57,7 @@ const impactStudies = [
 
 const capabilities = [
   { id: 1, title: "AI + ML", slug: "ai-and-ml" },
-  { id: 2, title: "OpsUnity for Developers", slug: "aip-for-developers" },
+  { id: 2, title: "OpsUnity for Developers", slug: "opsunity-for-developers" },
   { id: 3, title: "Data Integration", slug: "data-integration" },
   { id: 4, title: "Digital Twin", slug: "digital-twin" },
   { id: 5, title: "Dynamic Scheduling", slug: "dynamic-scheduling" },

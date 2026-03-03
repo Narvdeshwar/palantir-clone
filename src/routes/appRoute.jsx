@@ -5,7 +5,7 @@ import PageTransition from "../components/transitions/PageTransition";
 const Home = React.lazy(() => import("../views/home/Home"));
 const Search = React.lazy(() => import("../components/search/SearchComponent"));
 const Menu = React.lazy(() => import("../components/menu/Menu"));
-const Aip = React.lazy(() => import("../views/platforms/aip/Aip"));
+const OpsUnity = React.lazy(() => import("../views/platforms/opsunity/OpsUnity"));
 const JSPARKVision = React.lazy(() => import("../views/platforms/gotham/Gotham"));
 const GetStarted = React.lazy(() => import("../views/get-started/GetStarted"));
 const Foundary = React.lazy(() =>
@@ -42,10 +42,10 @@ export const appRoutes = [
     ),
   },
   {
-    path: "/platforms/aip",
+    path: "/platforms/opsunity",
     element: (
       <PageTransition>
-        <Aip />
+        <OpsUnity />
       </PageTransition>
     ),
   },

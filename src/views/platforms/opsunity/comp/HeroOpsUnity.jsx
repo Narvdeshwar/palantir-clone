@@ -2,7 +2,7 @@ import { V3 } from "@/assets/videos";
 import VideoContainer from "@/components/VideoContainer";
 import { sections } from "@/lib/data/aip-platfrom";
 
-function HeroAip() {
+function HeroOpsUnity() {
   return (
     <div className="relative flex items-center justify-center">
       {/* Video */}
@@ -52,4 +52,4 @@ function HeroAip() {
   );
 }
 
-export default HeroAip;
+export default HeroOpsUnity;

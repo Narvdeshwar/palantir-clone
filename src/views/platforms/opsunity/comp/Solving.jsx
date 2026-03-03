@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { solution } from "@/lib/data/solution";
-import { builtAIP } from "../../../../lib/data/solution";
+import { builtOpsUnity } from "../../../../lib/data/solution";
 import Button from "../../../../components/Button";
 
 function Solving() {
@@ -83,7 +83,7 @@ function Solving() {
         gap-8 w-[90%] mx-auto
       "
       >
-        {builtAIP.map((item) => (
+        {builtOpsUnity.map((item) => (
           <div
             key={item.title}
             className="

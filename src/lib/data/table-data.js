@@ -6,7 +6,7 @@ const steps = [
     title: "The autonomous brain that listens to voice commands, executes SOPs, triggers lockdowns, dispatch, recovery — securely & instantly.",
     description: "OpsUnity",
     src: V5,
-    slug: "/platforms/aip",
+    slug: "/platforms/opsunity",
   },
   {
     id: "0.2",

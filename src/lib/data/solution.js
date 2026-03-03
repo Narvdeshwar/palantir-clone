@@ -79,7 +79,7 @@ export const solution = [
   },
 ];
 
-export const builtAIP = [
+export const builtOpsUnity = [
   {
     id: "1",
     title: "Build with OpsUnity",
