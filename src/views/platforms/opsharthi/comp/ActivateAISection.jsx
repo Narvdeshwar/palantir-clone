@@ -2,6 +2,7 @@ import formData from "@/lib/data/formData.json";
 import countryList from "react-select-country-list";
 import { useMemo } from "react";
 import FormFields from "@/components/FormFields";
+import Button from "@/components/Button";
 
 export default function ActivateAIEnterprise() {
   const countries = useMemo(
@@ -50,9 +51,11 @@ export default function ActivateAIEnterprise() {
           </div>
 
           {/* Submit button */}
-          <button className="border border-white/20 px-8 py-2 text-sm hover:bg-white hover:text-black rounded-md cursor-pointer transition-colors duration-200">
-            {formData.submitText}
-          </button>
+          <div className="pt-6">
+            <Button variant="white" size="lg" className="w-fit rounded-md">
+              {formData.submitText}
+            </Button>
+          </div>
         </form>
       </div>
     </section>

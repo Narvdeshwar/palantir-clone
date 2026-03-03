@@ -14,7 +14,7 @@ const PrimeEAM = React.lazy(() =>
 const OpsSharthi = React.lazy(() =>
   import("../views/platforms/opsharthi/OpsSharthi")
 );
-const Appollo = React.lazy(() => import("../views/platforms/appollo/Appollo"));
+const OpsMind = React.lazy(() => import("../views/platforms/opsmind/OpsMind"));
 
 export const appRoutes = [
   {
@@ -74,10 +74,10 @@ export const appRoutes = [
     ),
   },
   {
-    path: "/platforms/appollo",
+    path: "/platforms/opsmind",
     element: (
       <PageTransition>
-        <Appollo />
+        <OpsMind />
       </PageTransition>
     ),
   },

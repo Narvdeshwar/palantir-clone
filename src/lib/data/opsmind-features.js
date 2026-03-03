@@ -1,4 +1,4 @@
-export const appolloFeatures = [
+export const opsMindFeatures = [
   {
     title:
       "Understand your software deployment landscape within hours",

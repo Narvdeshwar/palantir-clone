@@ -11,7 +11,7 @@ export const menuItem = [
       { id: "2-2", title: "Prime EAM", slug: "/platforms/prime-eam" },
       { id: "2-3", title: "JSPARK Vision", slug: "/platforms/jspark-vision" },
       { id: "2-4", title: "OpsSharthi", slug: "/platforms/opsharthi" },
-      { id: "2-5", title: "OpsMind", slug: "/platforms/appollo" },
+      { id: "2-5", title: "OpsMind", slug: "/platforms/opsmind" },
     ],
   },
   {

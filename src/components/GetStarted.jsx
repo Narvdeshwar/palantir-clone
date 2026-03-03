@@ -47,8 +47,8 @@ export default function GetStarted({ onClose }) {
                 {formFields.map((item) => (
                   <FormFields labelName={item.labelName} type={item.type} theme="dark" />
                 ))}
-                <div className="w-1/2">
-                  <Button variant="primary" size="md" className="m-3 w-full">
+                <div className="w-1/2 pt-6">
+                  <Button variant="white" size="md" className="w-full">
                     Submit
                   </Button>
                 </div>

@@ -61,9 +61,9 @@ export default function ProductionEnvironments() {
 
   return (
     <>
-      <section className="w-full px-6 lg:px-20 py-32 overflow-hidden">
+      <section className="w-full px-6 lg:px-20 py-32 overflow-hidden text-white">
         {/* Heading */}
-        <h2 className="text-5xl lg:text-7xl font-light max-w-4xl mb-20">
+        <h2 className="text-5xl lg:text-7xl font-light max-w-4xl mb-20 text-white">
           From one to many environments
         </h2>
 
@@ -76,17 +76,17 @@ export default function ProductionEnvironments() {
           </div>
         </div>
       </section>
-      <hr className="w-[95%] mx-auto" />
+      <hr className="w-[95%] mx-auto opacity-10" />
     </>
   );
 }
 
 function EnvironmentCard({ title, bg }) {
   return (
-    <article className="relative min-w-60 h-[300px] bg-black rounded-2xl overflow-hidden flex items-end">
+    <article className="relative min-w-60 h-[300px] bg-white/5 rounded-2xl overflow-hidden flex items-end border border-white/10 group hover:border-white/20 transition-colors">
       {/* Background image (SVG arcs / patterns) */}
       <div
-        className="absolute inset-0 bg-no-repeat bg-cover opacity-80 h-[250px] border-b border-white"
+        className="absolute inset-0 bg-no-repeat bg-cover opacity-40 h-[250px] border-b border-white/20 group-hover:opacity-60 transition-opacity"
         style={{ backgroundImage: `url(${bg})` }}
       />
 

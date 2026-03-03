@@ -16,6 +16,7 @@ const Button = ({
     primary: "btn-primary",
     secondary: "btn-secondary",
     outline: "btn-secondary bg-transparent",
+    white: "bg-white text-black font-medium shadow-lg hover:bg-gray-200 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300",
   };
 
   // Size variants

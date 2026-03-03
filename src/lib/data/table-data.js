@@ -37,7 +37,7 @@ const steps = [
       "An AI system that organizes documents, enables quick search, and creates summaries, helping teams find information fast with secure access.",
     description: "OpsMind",
     src: V9,
-    slug: "/platforms/appollo",
+    slug: "/platforms/opsmind",
   },
 ];
 
