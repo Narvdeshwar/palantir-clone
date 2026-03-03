@@ -16,7 +16,7 @@ function Carousel() {
 
   const [activeIndex, setActiveIndex] = useState(0);
 
-  useEffect(() => {
+  useEffect(() => { 
     const timer = setTimeout(() => handleNext(), 5000);
     return () => clearTimeout(timer);
   }, [activeIndex]);
@@ -70,7 +70,7 @@ function Carousel() {
         })}
       </motion.div>
 
-      <div className="hidden md:block absolute inset-0 z-50 mt-64 w-[96%] mx-auto h-[85vh] rounded-3xl overflow-hidden mb-20 shadow-2xl border border-border">
+      <div className="hidden md:block absolute inset-0 z-50 mt-48 w-[98%] mx-auto h-[92vh] rounded-3xl overflow-hidden mb-20 shadow-2xl border border-white/5">
         {carouselData.map((item, index) => {
           const isActive = index === activeIndex;
 
@@ -96,7 +96,7 @@ function Carousel() {
                   initial={{ opacity: 0, x: -30 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8, delay: 0.3 }}
-                  className="absolute bottom-10 left-10 bg-structure text-white p-8 rounded-2xl max-w-2xl border border-white/10 shadow-2xl"
+                  className="absolute bottom-10 left-10 bg-structure text-white p-8 rounded-2xl max-w-4xl border border-white/10 shadow-2xl"
                 >
                   <p className="text-xs font-bold uppercase tracking-[0.3em] text-jspark-primary mb-3">
                     {item.earmark || item.title}
@@ -153,7 +153,7 @@ function Carousel() {
         </h2>
 
         {/* Mobile image + tap zones */}
-        <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-2xl border border-border">
+        <div className="relative w-full aspect-[4/5] md:h-[60vh] rounded-2xl overflow-hidden shadow-2xl border border-white/5">
           <img
             src={carouselData[activeIndex].src}
             alt={carouselData[activeIndex].title}

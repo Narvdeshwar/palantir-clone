@@ -3,9 +3,9 @@ import { V4 } from "../../../../assets/videos";
 
 function CardDesign({ title, count }) {
   return (
-    <div className="border p-3 rounded-md border-white/40 w-28 sm:w-36">
-      <p className="text-white text-xs sm:text-sm">{title}</p>
-      <p className="text-white/50 text-[10px] sm:text-xs">{count}</p>
+    <div className="border border-white/10 p-4 rounded-xl w-32 sm:w-40 bg-white/5 backdrop-blur-md hover:border-jspark-primary/40 transition-colors">
+      <p className="text-white text-sm sm:text-base font-medium">{title}</p>
+      <p className="text-jspark-primary font-mono text-[10px] sm:text-xs tracking-widest mt-1">/0{count}</p>
     </div>
   );
 }
@@ -78,8 +78,8 @@ function Explore() {
       {/* HEADER */}
       <div className="flex flex-col md:flex-row justify-between w-[95%] mx-auto gap-6 pt-20">
         <div>
-          <p className="text-3xl sm:text-5xl text-white">Beyond Chat</p>
-          <p className="text-[#424662] text-lg sm:text-3xl">Explore OpsUnity</p>
+          <p className="text-4xl sm:text-6xl text-white font-bold tracking-tight">Beyond Chat.</p>
+          <p className="text-jspark-primary text-xl sm:text-3xl font-medium mt-2">Explore OpsUnity</p>
         </div>
 
         <div className="flex gap-2 flex-wrap justify-start sm:justify-end">
@@ -113,11 +113,11 @@ function Explore() {
         <div className="sticky top-0 border border-white/20 w-[95%] mx-auto rounded-md h-screen flex z-10">
 
           {/* LEFT BORDER */}
-          <div className="hidden sm:block w-12 h-full border-r border-white/20"></div>
+          <div className="hidden sm:block w-12 h-full border-r border-white/10"></div>
 
           {/* MIDDLE CONTENT */}
           <div className="w-full flex flex-col">
-            <div className="h-10 sm:h-12 border-b border-white/20"></div>
+            <div className="h-10 sm:h-12 border-b border-white/10"></div>
 
             <div className="flex-1 relative overflow-hidden">
               <video
@@ -160,17 +160,19 @@ function Explore() {
               })}
 
               {/* POSITION INDICATOR */}
-              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white/60 text-xs sm:text-sm bg-black/30 px-4 py-2 rounded-full">
-                Scroll to explore • Position:{" "}
-                {activePosition === null
-                  ? "None"
-                  : String.fromCharCode(65 + activePosition)}
+              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/80 font-medium text-xs sm:text-sm bg-black/60 px-6 py-3 rounded-full backdrop-blur-md border border-white/10 shadow-xl uppercase tracking-widest">
+                Scroll to explore • Node:{" "}
+                <span className="text-jspark-primary font-bold">
+                  {activePosition === null
+                    ? "NA"
+                    : String.fromCharCode(65 + activePosition)}
+                </span>
               </div>
             </div>
           </div>
 
           {/* RIGHT BORDER */}
-          <div className="hidden sm:block w-12 h-full border-l border-white/20"></div>
+          <div className="hidden sm:block w-12 h-full border-l border-white/10"></div>
         </div>
       </div>
     </div>

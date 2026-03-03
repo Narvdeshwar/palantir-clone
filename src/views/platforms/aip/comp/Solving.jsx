@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { solution } from "@/lib/data/solution";
 import { builtAIP } from "../../../../lib/data/solution";
+import Button from "../../../../components/Button";
 
 function Solving() {
   return (
@@ -8,8 +9,8 @@ function Solving() {
       {/* TOP SECTION */}
       <div
         className="
-        w-[90%] mx-auto pt-20 
-        grid grid-cols-1 md:grid-cols-[0.7fr_1.3fr] 
+        w-[90%] mx-auto pt-20
+        grid grid-cols-1 md:grid-cols-[0.7fr_1.3fr]
         gap-10
       "
       >
@@ -19,15 +20,14 @@ function Solving() {
             Turning operational complexity into intelligent control.
           </p>
 
-          <button
-            className="
-            flex items-center gap-2 border border-white px-4 py-2 rounded-md text-white 
-            cursor-pointer hover:bg-[#474a5c] text-base sm:text-lg md:text-xl 
-            transition-all duration-500
-          "
+          <Button
+            variant="outline"
+            size="lg"
+            className="group flex items-center gap-3 border-white/20 hover:border-jspark-primary hover:bg-white/5 text-lg"
           >
-            Explore OpsUnity Now <ArrowRight />
-          </button>
+            Explore OpsUnity Now
+            <ArrowRight className="group-hover:translate-x-1 transition-transform" />
+          </Button>
         </div>
 
         {/* RIGHT SOLUTIONS LIST */}
@@ -36,16 +36,16 @@ function Solving() {
             <div
               key={index}
               className="
-                border-t border-[#474a5c] flex gap-5 p-4 py-6 
-                cursor-pointer text-[#474a5c] group
+                border-t border-white/10 flex gap-6 p-6 py-8
+                cursor-pointer text-white/50 group hover:bg-white/[0.02] transition-colors
               "
             >
-              <p className="text-base sm:text-lg md:text-xl">{index + 1}</p>
+              <p className="text-xl sm:text-2xl font-mono text-jspark-primary/80">0{index + 1}</p>
 
               <div className="relative w-full">
                 <p
                   className="
-                  uppercase transition-all duration-500 text-sm sm:text-xl md:text-2xl 
+                  uppercase transition-all duration-500 text-sm sm:text-xl md:text-2xl
                   group-hover:text-white relative
                 "
                 >
@@ -56,10 +56,10 @@ function Solving() {
                     src={item.image}
                     alt={item.title}
                     className="
-                      w-40 sm:w-56 md:w-72 
-                      absolute opacity-0 scale-90 
+                      w-40 sm:w-56 md:w-72
+                      absolute opacity-0 scale-90
                       group-hover:opacity-100 group-hover:scale-100
-                      -top-10 sm:-top-16 left-1/2 -translate-x-1/2 
+                      -top-10 sm:-top-16 left-1/2 -translate-x-1/2
                       transition-all duration-700 ease-out
                       rounded-md shadow-2xl pointer-events-none
                     "
@@ -79,7 +79,7 @@ function Solving() {
       {/* CARDS SECTION */}
       <div
         className="
-        grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 
+        grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
         gap-8 w-[90%] mx-auto
       "
       >
@@ -87,16 +87,16 @@ function Solving() {
           <div
             key={item.title}
             className="
-              border border-white/30 p-6 space-y-5 rounded-xl shadow-md 
-              cursor-pointer hover:border-white transition-all duration-700 
-              hover:scale-105 group
+              border border-white/5 p-8 space-y-6 rounded-2xl shadow-xl bg-card
+              cursor-pointer hover:border-jspark-primary/40 transition-all duration-500
+              hover:scale-[1.02] hover:shadow-jspark-primary/10 group
             "
           >
             <p className="text-white text-xl sm:text-2xl flex justify-between items-center">
               {item.title}
               <ArrowRight
                 className="
-                  rotate-45 group-hover:rotate-0 
+                  rotate-45 group-hover:rotate-0
                   transition-all duration-700
                 "
               />
@@ -110,7 +110,7 @@ function Solving() {
                 playsInline
                 muted
                 className="
-                  rounded-md object-cover mx-auto 
+                  rounded-md object-cover mx-auto
                   aspect-video w-full h-46 md:max-h-40
                 "
               ></video>

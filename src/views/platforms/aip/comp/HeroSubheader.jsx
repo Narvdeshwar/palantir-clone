@@ -38,7 +38,7 @@ function HeroSubheader({ onOpen }) {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const bgColor = progress === 0 ? "#1D1F2B" : "#ffffff";
+  const bgColor = progress === 0 ? "#0b162a" : "#111e35";
 
   return (
     <motion.div
@@ -53,8 +53,8 @@ function HeroSubheader({ onOpen }) {
             <button
               key={i}
               onClick={text === "Get Started" ? onOpen : undefined}
-              className="uppercase text-xs sm:text-base md:text-xl transition-colors"
-              style={{ color: progress === 0 ? "white" : "black" }}
+              className={`uppercase text-xs sm:text-base md:text-xl transition-colors ${progress === 0 ? "text-white" : "text-text-primary"
+                }`}
             >
               {text}
             </button>
@@ -63,7 +63,7 @@ function HeroSubheader({ onOpen }) {
 
         {/* CENTER TEXT SECTION */}
         <div
-          className="flex flex-col items-center text-center overflow-hidden 
+          className="flex flex-col items-center text-center overflow-hidden
             text-[36px] sm:text-[60px] md:text-[80px] lg:text-[100px] space-y-4 font-semibold h-40 sm:h-[230px] md:h-[260px]"
         >
           {/* Line reveal */}
@@ -119,15 +119,15 @@ function HeroSubheader({ onOpen }) {
           className="flex flex-col items-center gap-2 pb-6 text-sm sm:text-base"
         >
           <div className="text-center">
-            <p className="text-gray-600">Turn AI in your Applications</p>
-            <p className="text-black font-semibold">
+            <p className="text-white/60">Turn AI in your Applications</p>
+            <p className="text-text-primary font-semibold">
               into Agents and Automations
             </p>
           </div>
 
-          <div className="flex flex-col justify-center items-center">
-            <ArrowDownFromLine color="black" size={20} />
-            <p className="text-[10px] text-black">Scroll to Explore</p>
+          <div className="flex flex-col justify-center items-center mt-2 opacity-60">
+            <ArrowDownFromLine color="white" size={20} />
+            <p className="text-[10px] text-white mt-1 uppercase tracking-widest font-bold">Scroll to Explore</p>
           </div>
         </motion.div>
       </div>

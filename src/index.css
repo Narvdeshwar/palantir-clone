@@ -247,11 +247,35 @@ body {
 }
 
 .scroll-container {
-  animation: infinite-scroll 40s linear infinite;
+  animation: infinite-scroll 80s linear infinite;
   display: flex;
   width: max-content;
 }
 
 .scroll-container:hover {
   animation-play-state: paused;
+}
+
+/* ============================= */
+/*        SCROLLBAR STYLE        */
+/* ============================= */
+
+/* Webkit configuration for Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-app);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-bg-hover);
+  border-radius: 5px;
+  border: 2px solid var(--color-bg-app);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-jspark-primary);
 }

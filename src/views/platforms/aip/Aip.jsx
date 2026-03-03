@@ -11,15 +11,15 @@ import { designedFix } from "../../../lib/data/designed-data";
 function Aip() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   return (
-    <>
+    <div className="bg-bg-app text-text-primary min-h-screen">
       <HeroAip />
       <HeroSubheader onOpen={() => setIsDrawerOpen(true)} />
       {isDrawerOpen && <GetStarted onClose={() => setIsDrawerOpen(false)} />}
       <Explore />
-      <Designed data={designedFix}/>
+      <Designed data={designedFix} theme="dark" />
       <Solving />
-      <Footer theme="dark"/>
-    </>
+      <Footer theme="dark" />
+    </div>
   );
 }
 
