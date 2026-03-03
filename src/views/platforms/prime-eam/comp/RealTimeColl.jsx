@@ -1,6 +1,6 @@
 import { features } from "@/lib/data/realtime";
 
-const OntologySection = () => {
+const OpsSharthiSection = () => {
   return (
     <>
       <section className="w-[90%] mx-auto px-6 py-16 text-white font-sans">
@@ -44,4 +44,4 @@ const OntologySection = () => {
   );
 };
 
-export default OntologySection;
+export default OpsSharthiSection;

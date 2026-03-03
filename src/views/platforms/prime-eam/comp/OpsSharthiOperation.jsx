@@ -11,7 +11,7 @@ const offerings = [
   { label: "More Offerings", href: "#" },
 ];
 
-const OntologyOperations = () => {
+const OpsSharthiOperation = () => {
   return (
     <>
       <section className=" py-16 px-6 md:px-12 lg:px-4 text-white">
@@ -74,4 +74,4 @@ const OntologyOperations = () => {
   );
 };
 
-export default OntologyOperations;
+export default OpsSharthiOperation;

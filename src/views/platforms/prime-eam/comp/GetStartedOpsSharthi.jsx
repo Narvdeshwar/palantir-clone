@@ -3,7 +3,7 @@ import countryList from "react-select-country-list";
 import { useMemo } from "react";
 import FormFields from "@/components/FormFields";
 
-export default function GetStartedOntology() {
+export default function GetStartedOpsSharthi() {
   const countries = useMemo(
     () =>
       countryList()

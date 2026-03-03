@@ -91,9 +91,9 @@ const explain = [
 
 
 
-export default function OntologyExplainPage() {
+export default function OpsSharthiExplainPage() {
   return (
-    <div className="px-10 py-16 w-[95%] mx-auto space-y-32">
+    <div className="px-10 py-16 w-[95%] mx-auto space-y-32 text-white">
 
       {explain.map((section, index) => (
         <div
@@ -102,29 +102,29 @@ export default function OntologyExplainPage() {
         >
           {/* LEFT SIDE – TITLE */}
           <div className="sticky top-28 h-fit">
-            <h1 className="text-6xl font-semibold tracking-tight">
+            <h1 className="text-6xl font-semibold tracking-tight text-white">
               {section.header}
             </h1>
           </div>
 
           {/* RIGHT SIDE – BIG CARD */}
           <div>
-            <div className="bg-card p-10 space-y-12">
+            <div className="bg-bg-app border border-white/5 p-10 space-y-12">
 
               {/* SUBHEADER */}
-              <p className="text-body leading-relaxed">
+              <p className="text-2xl leading-relaxed text-gray-300">
                 {section.subheader}
               </p>
 
-              <hr className="border-gray-300" />
+              <hr className="border-white/10" />
 
               {/* CONTENT BLOCKS */}
               {section.content.map((item, idx) => (
                 <div key={item.id} className="space-y-4">
 
-                  <h3 className="text-card-title">{item.title}</h3>
+                  <h3 className="text-3xl font-medium text-white">{item.title}</h3>
 
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-400 leading-relaxed text-lg">
                     {item.description}
                   </p>
 
@@ -133,7 +133,7 @@ export default function OntologyExplainPage() {
                     <img
                       src={item.img}
                       alt={item.title}
-                      className="w-full rounded-xl mt-4"
+                      className="w-full rounded-xl mt-4 opacity-80"
                     />
                   )}
 
@@ -147,7 +147,7 @@ export default function OntologyExplainPage() {
 
                   {/* Divider except after last item */}
                   {idx !== section.content.length - 1 && (
-                    <hr className="border-gray-300 my-8" />
+                    <hr className="border-white/10 my-8" />
                   )}
                 </div>
               ))}

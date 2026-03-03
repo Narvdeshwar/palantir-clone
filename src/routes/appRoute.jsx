@@ -11,8 +11,8 @@ const GetStarted = React.lazy(() => import("../views/get-started/GetStarted"));
 const PrimeEAM = React.lazy(() =>
   import("../views/platforms/prime-eam/PrimeEAM")
 );
-const Ontalogy = React.lazy(() =>
-  import("../views/platforms/ontology/Ontology")
+const OpsSharthi = React.lazy(() =>
+  import("../views/platforms/opsharthi/OpsSharthi")
 );
 const Appollo = React.lazy(() => import("../views/platforms/appollo/Appollo"));
 
@@ -66,10 +66,10 @@ export const appRoutes = [
     ),
   },
   {
-    path: "/platforms/ontology",
+    path: "/platforms/opsharthi",
     element: (
       <PageTransition>
-        <Ontalogy />
+        <OpsSharthi />
       </PageTransition>
     ),
   },

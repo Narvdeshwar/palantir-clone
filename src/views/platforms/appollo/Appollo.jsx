@@ -1,4 +1,4 @@
-import GetStarted from "../ontology/comp/GetStarted";
+import GetStarted from "../opsharthi/comp/GetStarted";
 import DevOpsStrategy from "./comp/Devstrat";
 import EnvironmentsCarousel from "./comp/EnviromentalCarousel";
 import { FeatureOverview } from "./comp/FeatureOverview";

@@ -1,22 +1,22 @@
 import Footer from "../../../Layout/Footer";
 import AwardsSection from "./comp/AwardSection";
-import GetStartedOntology from "./comp/GetStartedOntology";
+import GetStartedOpsSharthi from "./comp/GetStartedOpsSharthi";
 import GlobalImpact from "./comp/GlobalImpact";
 import HeroPrimeEAM from "./comp/HeroPrimeEAM";
-import Ontalogy from "./comp/Ontalogy";
-import OntologyOperations from "./comp/OntologyOperation";
-import OntologySection from "./comp/RealTimeColl";
+import OpsSharthiExplain from "./comp/OpsSharthiExplain";
+import OpsSharthiOperation from "./comp/OpsSharthiOperation";
+import OpsSharthiSection from "./comp/RealTimeColl";
 
 function PrimeEAM() {
   return (
     <div className="bg-bg-app text-text-primary min-h-screen">
       <HeroPrimeEAM />
-      <Ontalogy />
-      <OntologySection />
-      <OntologyOperations />
+      <OpsSharthiExplain />
+      <OpsSharthiSection />
+      <OpsSharthiOperation />
       <GlobalImpact />
       <AwardsSection />
-      <GetStartedOntology />
+      <GetStartedOpsSharthi />
       <Footer theme="dark" />
     </div>
   );

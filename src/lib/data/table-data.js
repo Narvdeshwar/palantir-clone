@@ -29,7 +29,7 @@ const steps = [
       "AI-powered command center that connects police, disaster teams, and infrastructure into one real-time response system.",
     description: "OpsSharthi",
     src: V8,
-    slug: "/platforms/ontology",
+    slug: "/platforms/opsharthi",
   },
   {
     id: "0.5",
